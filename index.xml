@@ -1,0 +1,1462 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sircus</title>
+    <link>/</link>
+    <description>Recent content on sircus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+    
+    
+    <copyright>Copyright (c) 2015 blivesta and ungki. all rights reserved.</copyright>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 UT</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Container</title>
+      <link>/test/container/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
+      
+      <guid>/test/container/</guid>
+      <description>&lt;div class=&#34;Container test-container&#34;&gt;
+  &lt;h3&gt;.Container&lt;/h3&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;ContainerFull test-container&#34;&gt;
+  &lt;h3&gt;.ContainerFull&lt;/h3&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;ContainerSlim test-container&#34;&gt;
+  &lt;h3&gt;.ContainerSlim&lt;/h3&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;ContainerFull test-container-nest&#34;&gt;
+  &lt;p&gt;.ContainerFull&lt;/p&gt;
+  &lt;div class=&#34;t-wxs-gutterReset test-container-nest&#34;&gt;
+    &lt;p&gt;.t-wxs-gutterReset&lt;/p&gt;
+    &lt;div class=&#34;ContainerSlim test-container-nest&#34;&gt;
+      &lt;p&gt;.ContainerSlim&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;ContainerSlim&#34;&gt;
+  &lt;h3&gt;.ContainerSlim &gt; .t-wxs-gutterReset&lt;/h3&gt;
+  &lt;div class=&#34;t-wxs-gutterReset&#34;&gt;
+    &lt;code&gt;.t-wxs-gutterReset&lt;/code&gt;
+    &lt;img class=&#34;&#34; src=&#34;http://placehold.it/1250x800&#34; alt=&#34;&#34; /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>buttons</title>
+      <link>/docs/buttons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
+      
+      <guid>/docs/buttons/</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;section&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;id=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;main&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;
+    &lt;span class=&#34;nt&#34;&gt;&amp;lt;h1&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;id=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;title&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;{{ .Title }}&lt;span class=&#34;nt&#34;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+    {{ range .Data.Pages }}
+        {{ .Render &amp;quot;summary&amp;quot;}}
+    {{ end }}
+  &lt;span class=&#34;nt&#34;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;/section&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Buttons</title>
+      <link>/test/buttons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
+      
+      <guid>/test/buttons/</guid>
+      <description>&lt;section class=&#34;ContainerFull&#34;&gt;
+
+  &lt;h2&gt;Base button element&lt;/h2&gt;
+  &lt;p&gt;
+    &lt;button&gt;button&lt;/button&gt;
+  &lt;/p&gt;
+
+
+  &lt;h2&gt;button.Button&lt;/h2&gt;
+  &lt;p&gt;
+    &lt;button class=&#34;Button&#34;&gt;button.Button&lt;/button&gt;
+    &lt;button class=&#34;Button is-active&#34;&gt;button.Button.is-active&lt;/button&gt;
+    &lt;button class=&#34;Button is-disabled&#34;&gt;button.Button.is-disabled&lt;/button&gt;
+    &lt;button class=&#34;Button&#34; disabled&gt;button.Button[disabled]&lt;/button&gt;
+  &lt;/p&gt;
+  &lt;h2&gt;input.Button type=&#34;submit&#34;&lt;/h2&gt;
+  &lt;p&gt;
+    &lt;input type=&#34;submit&#34; class=&#34;Button&#34; value=&#34;input.Button&#34;&gt;
+    &lt;input type=&#34;submit&#34; class=&#34;Button is-active&#34; value=&#34;input.Button.is-active&#34;&gt;
+    &lt;input type=&#34;submit&#34; class=&#34;Button is-disabled&#34; value=&#34;input.Button.is-disabled&#34;&gt;
+    &lt;input type=&#34;submit&#34; class=&#34;Button&#34; value=&#34;input.Button[disabled]&#34; disabled&gt;
+  &lt;/p&gt;
+
+  &lt;h2&gt;a.Button&lt;/h2&gt;
+  &lt;p&gt;
+    &lt;a class=&#34;Button&#34;&gt;a.Button&lt;/a&gt;
+    &lt;a class=&#34;Button is-active&#34;&gt;a.Button.is-active&lt;/a&gt;
+    &lt;a class=&#34;Button is-disabled&#34;&gt;a.Button.is-disabled&lt;/a&gt;
+  &lt;/p&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;button.Button.Button--border&lt;/h2&gt;
+  &lt;p&gt;
+    &lt;button class=&#34;Button Button--border&#34;&gt;button.Button.Button--border&lt;/button&gt;
+    &lt;button class=&#34;Button Button--border is-active&#34;&gt;button.Button.Button--border.is-active&lt;/button&gt;
+    &lt;button class=&#34;Button Button--border is-disabled&#34;&gt;button.Button.Button--border.is-disabled&lt;/button&gt;
+    &lt;button class=&#34;Button Button--border&#34; disabled&gt;button.Button.Button--border[disabled]&lt;/button&gt;
+  &lt;/p&gt;
+  &lt;h2&gt;input.Button.Button--border type=&#34;submit&#34;&lt;/h2&gt;
+  &lt;p&gt;
+    &lt;input type=&#34;submit&#34; class=&#34;Button Button--border&#34; value=&#34;input.Button.Button--border&#34;&gt;
+    &lt;input type=&#34;submit&#34; class=&#34;Button Button--border is-active&#34; value=&#34;input.Button.Button--border.is-active&#34;&gt;
+    &lt;input type=&#34;submit&#34; class=&#34;Button Button--border is-disabled&#34; value=&#34;input.Button.Button--border.is-disabled&#34;&gt;
+    &lt;input type=&#34;submit&#34; class=&#34;Button Button--border&#34; value=&#34;input.Button.Button--border[disabled]&#34; disabled&gt;
+  &lt;/p&gt;
+
+  &lt;h2&gt;a.Button.Button--border&lt;/h2&gt;
+  &lt;p&gt;
+    &lt;a class=&#34;Button Button--border&#34;&gt;a.Button.Button--border&lt;/a&gt;
+    &lt;a class=&#34;Button Button--border is-active&#34;&gt;a.Button.Button--border.is-active&lt;/a&gt;
+    &lt;a class=&#34;Button Button--border is-disabled&#34;&gt;a.Button.Button--border.is-disabled&lt;/a&gt;
+  &lt;/p&gt;
+
+  &lt;hr&gt;
+
+
+  &lt;h2&gt;button.Button.Button--reset&lt;/h2&gt;
+  &lt;p&gt;
+    &lt;button class=&#34;Button Button--reset&#34;&gt;button.Button.Button--reset&lt;/button&gt;
+    &lt;button class=&#34;Button Button--reset is-active&#34;&gt;button.Button.Button--reset.is-active&lt;/button&gt;
+    &lt;button class=&#34;Button Button--reset is-disabled&#34;&gt;button.Button.Button--reset.is-disabled&lt;/button&gt;
+    &lt;button class=&#34;Button Button--reset&#34; disabled&gt;button.Button.Button--reset[disabled]&lt;/button&gt;
+  &lt;/p&gt;
+  &lt;h2&gt;input.Button.Button--reset type=&#34;submit&#34;&lt;/h2&gt;
+  &lt;p&gt;
+    &lt;input type=&#34;submit&#34; class=&#34;Button Button--reset&#34; value=&#34;input.Button.Button--reset&#34;&gt;
+    &lt;input type=&#34;submit&#34; class=&#34;Button Button--reset is-active&#34; value=&#34;input.Button.Button--reset.is-active&#34;&gt;
+    &lt;input type=&#34;submit&#34; class=&#34;Button Button--reset is-disabled&#34; value=&#34;input.Button.Button--reset.is-disabled&#34;&gt;
+    &lt;input type=&#34;submit&#34; class=&#34;Button Button--reset&#34; value=&#34;input.Button.Button--reset[disabled]&#34; disabled&gt;
+  &lt;/p&gt;
+
+  &lt;h2&gt;a.Button.Button--reset&lt;/h2&gt;
+  &lt;p&gt;
+    &lt;a class=&#34;Button Button--reset&#34;&gt;a.Button.Button--reset&lt;/a&gt;
+    &lt;a class=&#34;Button Button--reset is-active&#34;&gt;a.Button.Button--reset.is-active&lt;/a&gt;
+    &lt;a class=&#34;Button Button--reset is-disabled&#34;&gt;a.Button.Button--reset.is-disabled&lt;/a&gt;
+  &lt;/p&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;.Button.Button--pill&lt;/h2&gt;
+
+  &lt;p&gt;
+    &lt;button class=&#34;Button Button--pill&#34;&gt;button.Button.Button--pill&lt;/button&gt;
+    &lt;a href=&#34;#&#34; class=&#34;Button Button--border Button--pill&#34;&gt;a.Button Button--border.Button--pill&lt;/a&gt;
+    &lt;a href=&#34;#&#34; class=&#34;Button Button--pill is-notice&#34;&gt;a.Button.Button--pill.is-notice&lt;/a&gt;
+    &lt;a href=&#34;#&#34; class=&#34;Button Button--border Button--pill is-warning&#34;&gt;a.Button Button--border.Button--pill.is-warning&lt;/a&gt;
+  &lt;/p&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;.Button.Button--primary&lt;/h2&gt;
+
+  &lt;p&gt;
+    &lt;a href=&#34;#&#34; class=&#34;Button Button--primary&#34;&gt;a.Button--primary&lt;/a&gt;
+    &lt;a href=&#34;#&#34; class=&#34;Button Button--primary is-active&#34;&gt;a.Button--primary.is-active&lt;/a&gt;
+    &lt;button class=&#34;Button Button--primary is-active&#34;&gt;button.Button--primary.is-active&lt;/button&gt;
+    &lt;a class=&#34;Button Button--primary is-disabled&#34; href=&#34;#&#34;&gt;a.Button--primary.is-disabled&lt;/a&gt;
+  &lt;/p&gt;
+
+  &lt;p&gt;
+    &lt;button class=&#34;Button Button--border Button--primary&#34;&gt;button.Button Button--border.Button--primary&lt;/button&gt;
+    &lt;a href=&#34;#&#34; class=&#34;Button Button--border Button Button--primary&#34;&gt;a.Button--border.Button-primary&lt;/a&gt;
+    &lt;a href=&#34;#&#34; class=&#34;Button Button--border Button--primary is-active&#34;&gt;a.Button--border.Button--primary.is-active&lt;/a&gt;
+    &lt;button class=&#34;Button Button--border Button--primary is-active&#34;&gt;button.Button--border.Button--primary.is-active&lt;/button&gt;
+    &lt;button class=&#34;Button Button--border Button--primary is-disabled&#34;&gt;button.Button--border.Button--primary.is-disabled&lt;/button&gt;
+  &lt;/p&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;State color&lt;/h2&gt;
+  &lt;h3&gt;.Button.is-[StateColor]&lt;/h3&gt;
+  &lt;p&gt;
+    &lt;a href=&#34;#&#34; class=&#34;Button is-success&#34;&gt;a.Button.is-success&lt;/a&gt;
+    &lt;a href=&#34;#&#34; class=&#34;Button is-notice&#34;&gt;a.Button.is-notice&lt;/a&gt;
+    &lt;a href=&#34;#&#34; class=&#34;Button is-warning&#34;&gt;a.Button.is-warning&lt;/a&gt;
+    &lt;a href=&#34;#&#34; class=&#34;Button is-error&#34;&gt;a.Button.is-error&lt;/a&gt;
+  &lt;/p&gt;
+
+
+  &lt;h2&gt;.Button Button--border.is-[StateColor]&lt;/h2&gt;
+  &lt;p&gt;
+    &lt;a href=&#34;#&#34; class=&#34;Button Button--border is-success&#34;&gt;a.Button Button--border.is-success&lt;/a&gt;
+    &lt;a href=&#34;#&#34; class=&#34;Button Button--border is-notice&#34;&gt;a.Button Button--border.is-success&lt;/a&gt;
+    &lt;a href=&#34;#&#34; class=&#34;Button Button--border is-warning&#34;&gt;a.Button Button--border.is-success&lt;/a&gt;
+    &lt;a href=&#34;#&#34; class=&#34;Button Button--border is-error&#34;&gt;a.Button Button--border.is-success&lt;/a&gt;
+  &lt;/p&gt;
+
+  &lt;h2&gt;.Button--reset.is-[StateColor]&lt;/h2&gt;
+  &lt;p&gt;
+    &lt;a href=&#34;#&#34; class=&#34;Button--reset is-success&#34;&gt;a.Button--reset.is-success&lt;/a&gt;
+    &lt;button class=&#34;Button--reset is-notice&#34;&gt;button.Button--reset.is-active&lt;/button&gt;
+    &lt;a class=&#34;Button--reset is-warning&#34; href=&#34;#&#34;&gt;a.Button--reset.is-disabled&lt;/a&gt;
+    &lt;button class=&#34;Button--reset is-error&#34;&gt;button.Button--reset[disabled]&lt;/button&gt;
+  &lt;/p&gt;
+
+  &lt;hr&gt;
+
+
+
+  &lt;h2&gt;Sizing&lt;/h2&gt;
+
+  &lt;p&gt;
+    &lt;a href=&#34;#&#34; class=&#34;Button Button--sm&#34;&gt;.Button.Button--sm&lt;/a&gt;
+    &lt;button class=&#34;Button&#34;&gt;.Button(Normal)&lt;/button&gt;
+    &lt;a href=&#34;#&#34; class=&#34;Button Button--lg&#34;&gt;.Button.Button--lg&lt;/a&gt;
+    &lt;button class=&#34;Button Button--xl&#34;&gt;.Button.Button--xl&lt;/button&gt;
+  &lt;/p&gt;
+  &lt;p&gt;
+    &lt;a href=&#34;#&#34; class=&#34;Button Button--border Button--sm&#34;&gt;.Button Button--border.Button--sm&lt;/a&gt;
+    &lt;button class=&#34;Button Button--border&#34;&gt;.Button Button--border(Normal)&lt;/button&gt;
+    &lt;a href=&#34;#&#34; class=&#34;Button Button--border Button--lg&#34;&gt;.Button Button--border.Button--lg&lt;/a&gt;
+    &lt;button class=&#34;Button Button--border Button--xl&#34;&gt;.Button Button--border.Button--xl&lt;/button&gt;
+  &lt;/p&gt;
+  &lt;p&gt;
+    &lt;a href=&#34;#&#34; class=&#34;Button--reset Button--sm&#34;&gt;.Button--reset.Button--sm&lt;/a&gt;
+    &lt;button class=&#34;Button--reset&#34;&gt;.Button--reset(Normal)&lt;/button&gt;
+    &lt;a href=&#34;#&#34; class=&#34;Button--reset Button--lg&#34;&gt;.Button--reset.Button--lg&lt;/a&gt;
+    &lt;button class=&#34;Button--reset Button--xl&#34;&gt;.Button--reset.Button--xl&lt;/button&gt;
+  &lt;/p&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;Full&lt;/h2&gt;
+
+  &lt;p&gt;
+    &lt;a href=&#34;#&#34; class=&#34;Button Button--full&#34;&gt;a.Button.Button--full&lt;/a&gt;
+    &lt;button href=&#34;#&#34; class=&#34;Button Button--border Button--full Button--xl&#34;&gt;button.Button Button--border.Button--lg.Button--full&lt;/button&gt;
+  &lt;/p&gt;
+
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Typography</title>
+      <link>/docs/typography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
+      
+      <guid>/docs/typography/</guid>
+      <description>&lt;hr class=&#34;docs-hr&#34;&gt;
+
+&lt;h2 class=&#34;H3&#34;&gt;Heddings&lt;/h2&gt;
+
+&lt;div class=&gt;
+
+  &lt;div class=&#34;&#34;&gt;
+
+
+
+    &lt;div class=&#34;docs-example&#34;&gt;
+
+    &lt;table class=&#34;table&#34;&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;p class=&#34;H0&#34;&gt;Sircus.css heading0&lt;/p&gt;&lt;/td&gt;
+          &lt;td class=&#34;t-alignRight&#34;&gt;[ &amp;lt;p class=&#34;.H0&#34;&amp;gt; ]&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;h1&gt;Sircus.css heading1&lt;/h1&gt;&lt;/td&gt;
+          &lt;td class=&#34;t-alignRight&#34;&gt;[ &amp;lt;h1&amp;gt; | &amp;lt;p class=&#34;.H1&#34;&amp;gt; ]&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;h2 id=&#34;h2.-bootstrap-heading&#34;&gt;h2. Sircus.css heading&lt;a class=&#34;anchorjs-link&#34; href=&#34;#h2.-bootstrap-heading&#34;&gt;&lt;span class=&#34;anchorjs-icon&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;/td&gt;
+          &lt;td class=&#34;type-info&#34;&gt;Semibold 30px&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;h3 id=&#34;h3.-bootstrap-heading&#34;&gt;h3. Sircus.css heading&lt;a class=&#34;anchorjs-link&#34; href=&#34;#h3.-bootstrap-heading&#34;&gt;&lt;span class=&#34;anchorjs-icon&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;/td&gt;
+          &lt;td class=&#34;type-info&#34;&gt;Semibold 24px&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;h4 id=&#34;h4.-bootstrap-heading&#34;&gt;h4. Sircus.css heading&lt;a class=&#34;anchorjs-link&#34; href=&#34;#h4.-bootstrap-heading&#34;&gt;&lt;span class=&#34;anchorjs-icon&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h4&gt;&lt;/td&gt;
+          &lt;td class=&#34;type-info&#34;&gt;Semibold 18px&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;h5 id=&#34;h5.-bootstrap-heading&#34;&gt;h5. Sircus.css heading&lt;a class=&#34;anchorjs-link&#34; href=&#34;#h5.-bootstrap-heading&#34;&gt;&lt;span class=&#34;anchorjs-icon&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h5&gt;&lt;/td&gt;
+          &lt;td class=&#34;type-info&#34;&gt;Semibold 14px&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;h6&gt;h6. Sircus.css heading&lt;/h6&gt;&lt;/td&gt;
+          &lt;td class=&#34;type-info&#34;&gt;Semibold 12px&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/div&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;h1 class=&amp;quot;H0&amp;quot;&amp;gt;Hedding0&amp;lt;/h1&amp;gt;
+&amp;lt;h1&amp;gt;Hedding1&amp;lt;/h1&amp;gt;
+&amp;lt;h2&amp;gt;Hedding2&amp;lt;/h2&amp;gt;
+&amp;lt;h3&amp;gt;Hedding3&amp;lt;/h3&amp;gt;
+&amp;lt;h4&amp;gt;Hedding4&amp;lt;/h4&amp;gt;
+&amp;lt;h5&amp;gt;Hedding5&amp;lt;/h5&amp;gt;
+&amp;lt;h6&amp;gt;Hedding6&amp;lt;/h6&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/div&gt;
+  &lt;div class=&#34;Row-col t-wsm-width1of2&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;c&#34;&gt;&amp;lt;!-- Hedding0 --&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;H0&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;Hedding0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+
+&lt;span class=&#34;c&#34;&gt;&amp;lt;!-- Hedding1 --&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Hedding1&lt;span class=&#34;nt&#34;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;H1&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;Hedding1&lt;span class=&#34;nt&#34;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+
+&lt;span class=&#34;c&#34;&gt;&amp;lt;!-- Hedding2 --&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;h2&amp;gt;&lt;/span&gt;Hedding2&lt;span class=&#34;nt&#34;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;H2&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;Hedding2&lt;span class=&#34;nt&#34;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+
+&lt;span class=&#34;c&#34;&gt;&amp;lt;!-- Hedding3 --&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;h3&amp;gt;&lt;/span&gt;Hedding3&lt;span class=&#34;nt&#34;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;H3&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;Hedding3&lt;span class=&#34;nt&#34;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+
+&lt;span class=&#34;c&#34;&gt;&amp;lt;!-- Hedding4 --&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;h4&amp;gt;&lt;/span&gt;Hedding4&lt;span class=&#34;nt&#34;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;H4&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;Hedding4&lt;span class=&#34;nt&#34;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+
+&lt;span class=&#34;c&#34;&gt;&amp;lt;!-- Hedding5 --&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;h5&amp;gt;&lt;/span&gt;Hedding5&lt;span class=&#34;nt&#34;&gt;&amp;lt;/h5&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;H5&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;Hedding5&lt;span class=&#34;nt&#34;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+
+&lt;span class=&#34;c&#34;&gt;&amp;lt;!-- Hedding6 --&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;h6&amp;gt;&lt;/span&gt;Hedding6&lt;span class=&#34;nt&#34;&gt;&amp;lt;/h6&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;H6&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;Hedding6&lt;span class=&#34;nt&#34;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+  &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;hr class=&#34;docs-hr&#34;&gt;
+
+&lt;h2 class=&#34;H3&#34;&gt;Paragraph&lt;/h2&gt;
+&lt;p&gt;
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.
+&lt;/p&gt;
+&lt;p&gt;
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;...&lt;span class=&#34;nt&#34;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+
+&lt;hr class=&#34;docs-hr&#34;&gt;
+
+
+&lt;h2 class=&#34;H3&#34;&gt;Unordered list&lt;/h2&gt;
+
+&lt;div class=&#34;Row&#34;&gt;
+
+  &lt;div class=&#34;Row-col t-wsm-width1of2&#34;&gt;
+    &lt;ul&gt;
+      &lt;li&gt;list item 1&lt;/li&gt;
+      &lt;li&gt;list item 1
+        &lt;ul&gt;
+          &lt;li&gt;list item 2&lt;/li&gt;
+          &lt;li&gt;list item 2
+            &lt;ul&gt;
+              &lt;li&gt;list item 3&lt;/li&gt;
+              &lt;li&gt;list item 3&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;list item 2&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;list item 1&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;Row-col t-wsm-width1of2&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;list item 1&lt;span class=&#34;nt&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Form</title>
+      <link>/test/form/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
+      
+      <guid>/test/form/</guid>
+      <description>&lt;div class=&#34;ContainerFull&#34;&gt;
+
+&lt;h1&gt;Forms&lt;/h1&gt;
+
+&lt;p&gt;
+&lt;label class=&#34;&#34;&gt;Base&lt;/label&gt;
+&lt;input class=&#34;&#34; type=&#34;text&#34; placeholder=&#34;nomal&#34;&gt;
+&lt;select class=&#34;&#34;&gt;
+&lt;option&gt;select&lt;/option&gt;
+&lt;option&gt;2&lt;/option&gt;
+&lt;/select&gt;
+&lt;button class=&#34;&#34;&gt;button&lt;/button&gt;
+&lt;a class=&#34;&#34;&gt;a.Button&lt;/a&gt;
+&lt;input class=&#34;&#34; type=&#34;checkbox&#34; placeholder=&#34;nomal&#34;&gt;
+&lt;input class=&#34;&#34; type=&#34;radio&#34; placeholder=&#34;nomal&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;p&gt;
+&lt;label class=&#34;t-width1of6 t-inlineBlock&#34;&gt;Small&lt;/label&gt;
+&lt;input class=&#34;Input Input--sm t-width1of6&#34; type=&#34;text&#34; placeholder=&#34;nomal&#34;&gt;
+&lt;select class=&#34;Select Select--sm t-width1of6&#34;&gt;
+&lt;option&gt;select&lt;/option&gt;
+&lt;option&gt;2&lt;/option&gt;
+&lt;/select&gt;
+&lt;button class=&#34;Button Button--sm&#34;&gt;button&lt;/button&gt;
+&lt;a class=&#34;Button Button--border Button--sm&#34;&gt;a.Button&lt;/a&gt;
+&lt;input class=&#34;&#34; type=&#34;checkbox&#34; placeholder=&#34;nomal&#34;&gt;
+&lt;input class=&#34;&#34; type=&#34;radio&#34; placeholder=&#34;nomal&#34;&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;label class=&#34;t-width1of6 t-inlineBlock&#34;&gt;Base&lt;/label&gt;
+&lt;input class=&#34;Input t-width1of6&#34; type=&#34;text&#34; placeholder=&#34;nomal&#34;&gt;
+&lt;select class=&#34;Select t-width1of6&#34;&gt;
+&lt;option&gt;select&lt;/option&gt;
+&lt;option&gt;2&lt;/option&gt;
+&lt;/select&gt;
+&lt;button class=&#34;Button&#34;&gt;button&lt;/button&gt;
+&lt;a class=&#34;Button Button--border&#34;&gt;a.Button&lt;/a&gt;
+&lt;input class=&#34;&#34; type=&#34;checkbox&#34; placeholder=&#34;nomal&#34;&gt;
+&lt;input class=&#34;&#34; type=&#34;radio&#34; placeholder=&#34;nomal&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;p&gt;
+&lt;label class=&#34;t-width1of6 t-inlineBlock&#34;&gt;Large&lt;/label&gt;
+&lt;input class=&#34;Input Input--lg t-width1of6&#34; type=&#34;text&#34; placeholder=&#34;nomal&#34;&gt;
+&lt;select class=&#34;Select Select--lg t-width1of6&#34;&gt;
+&lt;option&gt;select&lt;/option&gt;
+&lt;option&gt;2&lt;/option&gt;
+&lt;/select&gt;
+&lt;button class=&#34;Button Button--lg&#34;&gt;button&lt;/button&gt;
+&lt;a class=&#34;Button Button--border Button--lg&#34;&gt;a.Button&lt;/a&gt;
+&lt;input class=&#34;&#34; type=&#34;checkbox&#34; placeholder=&#34;nomal&#34;&gt;
+&lt;input class=&#34;&#34; type=&#34;radio&#34; placeholder=&#34;nomal&#34;&gt;
+&lt;/p&gt;
+
+
+&lt;p&gt;
+&lt;label class=&#34;t-width1of6 t-inlineBlock&#34;&gt;X-Large&lt;/label&gt;
+&lt;input class=&#34;Input Input--xl t-width1of6&#34; type=&#34;text&#34; placeholder=&#34;nomal&#34;&gt;
+&lt;select class=&#34;Select Select--xl t-width1of6&#34;&gt;
+&lt;option&gt;select&lt;/option&gt;
+&lt;option&gt;2&lt;/option&gt;
+&lt;/select&gt;
+&lt;button class=&#34;Button Button--border Button--xl&#34;&gt;button&lt;/button&gt;
+&lt;a class=&#34;Button Button--border Button--xl&#34;&gt;a.Button&lt;/a&gt;
+&lt;input class=&#34;&#34; type=&#34;checkbox&#34; placeholder=&#34;nomal&#34;&gt;
+&lt;input class=&#34;&#34; type=&#34;radio&#34; placeholder=&#34;nomal&#34;&gt;
+&lt;/p&gt;
+
+
+
+&lt;h2&gt;Input &amp; Select &lt;/h2&gt;
+&lt;p&gt;
+  &lt;input class=&#34;Input t-width2of6&#34; type=&#34;text&#34; placeholder=&#34;nomal&#34;&gt;
+  &lt;select class=&#34;Select t-width2of6&#34;&gt;
+    &lt;option&gt;select&lt;/option&gt;
+    &lt;option&gt;2&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/p&gt;
+
+&lt;h3&gt;Focus&lt;/h3&gt;
+&lt;p&gt;
+  &lt;input class=&#34;Input t-width2of6 is-focus&#34; type=&#34;text&#34; placeholder=&#34;nomal&#34;&gt;
+  &lt;select class=&#34;is-focus Select t-width2of6&#34;&gt;
+    &lt;option&gt;select&lt;/option&gt;
+    &lt;option&gt;2&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/p&gt;
+
+&lt;h3&gt;Focus&lt;/h3&gt;
+&lt;p&gt;
+  &lt;input class=&#34;Input t-width2of6 is-disabled&#34; type=&#34;text&#34; placeholder=&#34;nomal&#34;&gt;
+  &lt;select class=&#34;is-disabled Select t-width2of6&#34;&gt;
+    &lt;option&gt;select&lt;/option&gt;
+    &lt;option&gt;2&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/p&gt;
+
+
+
+&lt;h2&gt;Full width&lt;/h2&gt;
+&lt;p&gt;
+&lt;input class=&#34;Input--full&#34; type=&#34;text&#34; placeholder=&#34;.Input--full&#34;&gt;
+&lt;/p&gt;
+
+
+
+&lt;h2&gt;Size&lt;/h2&gt;
+&lt;p&gt;
+&lt;input class=&#34;Input Input--sm&#34; type=&#34;text&#34; value=&#34;.Input--sm&#34;&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;input class=&#34;&#34; type=&#34;text&#34; placeholder=&#34;Base&#34;&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;input class=&#34;Input Input--lg&#34; type=&#34;text&#34; value=&#34;Input.Input--lg&#34;&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;input class=&#34;Input Input--xl&#34; type=&#34;text&#34; placeholder=&#34;Input.Input--xl&#34;&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;State color&lt;/h2&gt;
+&lt;p&gt;
+&lt;input class=&#34;Input is-success&#34; type=&#34;text&#34; value=&#34;.Input.is-success&#34;&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;input class=&#34;Input is-notice&#34; type=&#34;text&#34; value=&#34;.Input.is-notice&#34;&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;input class=&#34;Input is-warning&#34; type=&#34;text&#34; value=&#34;.Input.is-warning&#34;&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;input class=&#34;Input is-error&#34; type=&#34;text&#34; value=&#34;.Input.is-error&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;form&gt;
+  &lt;fieldset&gt;
+    &lt;legend&gt;Inputs as descendents of labels (form legend). This doubles up as a long legend that can test word wrapping.&lt;/legend&gt;
+    &lt;p&gt;&lt;label&gt;Text input &lt;input type=&#34;text&#34; value=&#34;default value that goes on and on without stopping or punctuation&#34;&gt;&lt;/label&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label&gt;Email input &lt;input type=&#34;email&#34;&gt;&lt;/label&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label&gt;Search input &lt;input type=&#34;search&#34;&gt;&lt;/label&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label&gt;Tel input &lt;input type=&#34;tel&#34;&gt;&lt;/label&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label&gt;URL input &lt;input type=&#34;url&#34; placeholder=&#34;http://&#34;&gt;&lt;/label&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label&gt;Password input &lt;input type=&#34;password&#34; value=&#34;password&#34;&gt;&lt;/label&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label&gt;File input &lt;input type=&#34;file&#34;&gt;&lt;/label&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;label&gt;Radio input &lt;input type=&#34;radio&#34; name=&#34;rad&#34;&gt;&lt;/label&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label&gt;Checkbox input &lt;input type=&#34;checkbox&#34;&gt;&lt;/label&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label&gt;&lt;input type=&#34;radio&#34; name=&#34;rad&#34;&gt; Radio input&lt;/label&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34;&gt; Checkbox input&lt;/label&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;label&gt;Select field &lt;select&gt;&lt;option&gt;Option 01&lt;/option&gt;&lt;option&gt;Option 02&lt;/option&gt;&lt;/select&gt;&lt;/label&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label&gt;Textarea &lt;textarea cols=&#34;30&#34; rows=&#34;5&#34; &gt;Textarea text&lt;/textarea&gt;&lt;/label&gt;&lt;/p&gt;
+  &lt;/fieldset&gt;
+
+  &lt;fieldset&gt;
+    &lt;legend&gt;Inputs as siblings of labels&lt;/legend&gt;
+    &lt;p&gt;&lt;label for=&#34;ic&#34;&gt;Color input&lt;/label&gt; &lt;input type=&#34;color&#34; id=&#34;ic&#34; value=&#34;#000000&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label for=&#34;in&#34;&gt;Number input&lt;/label&gt; &lt;input type=&#34;number&#34; id=&#34;in&#34; min=&#34;0&#34; max=&#34;10&#34; value=&#34;5&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label for=&#34;ir&#34;&gt;Range input&lt;/label&gt; &lt;input type=&#34;range&#34; id=&#34;ir&#34; value=&#34;10&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label for=&#34;idd&#34;&gt;Date input&lt;/label&gt; &lt;input type=&#34;date&#34; id=&#34;idd&#34; value=&#34;1970-01-01&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label for=&#34;idm&#34;&gt;Month input&lt;/label&gt; &lt;input type=&#34;month&#34; id=&#34;idm&#34; value=&#34;1970-01&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label for=&#34;idw&#34;&gt;Week input&lt;/label&gt; &lt;input type=&#34;week&#34; id=&#34;idw&#34; value=&#34;1970-W01&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label for=&#34;idt&#34;&gt;Datetime input&lt;/label&gt; &lt;input type=&#34;datetime&#34; id=&#34;idt&#34; value=&#34;1970-01-01T00:00:00Z&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label for=&#34;idtl&#34;&gt;Datetime-local input&lt;/label&gt; &lt;input type=&#34;datetime-local&#34; id=&#34;idtl&#34; value=&#34;1970-01-01T00:00&#34;&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&#34;irb&#34;&gt;Radio input&lt;/label&gt; &lt;input type=&#34;radio&#34; id=&#34;irb&#34; name=&#34;rad&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label for=&#34;icb&#34;&gt;Checkbox input&lt;/label&gt; &lt;input type=&#34;checkbox&#34; id=&#34;icb&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;input type=&#34;radio&#34; id=&#34;irb2&#34; name=&#34;rad&#34;&gt; &lt;label for=&#34;irb2&#34;&gt;Radio input&lt;/label&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;icb2&#34;&gt; &lt;label for=&#34;icb2&#34;&gt;Checkbox input&lt;/label&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&#34;s&#34;&gt;Select field&lt;/label&gt; &lt;select id=&#34;s&#34;&gt;&lt;option&gt;Option 01&lt;/option&gt;&lt;option&gt;Option 02&lt;/option&gt;&lt;/select&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label for=&#34;t&#34;&gt;Textarea&lt;/label&gt; &lt;textarea id=&#34;t&#34; cols=&#34;30&#34; rows=&#34;5&#34; &gt;Textarea text&lt;/textarea&gt;&lt;/p&gt;
+  &lt;/fieldset&gt;
+
+  &lt;fieldset&gt;
+    &lt;legend&gt;Clickable inputs and buttons&lt;/legend&gt;
+    &lt;p&gt;&lt;input type=&#34;image&#34; src=&#34;http://lorempixel.com/90/24&#34; alt=&#34;Image (input)&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;input type=&#34;reset&#34; value=&#34;Reset (input)&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;input type=&#34;button&#34; value=&#34;Button (input)&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;input type=&#34;submit&#34; value=&#34;Submit (input)&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;input type=&#34;submit&#34; value=&#34;Disabled (input)&#34; disabled&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;button type=&#34;reset&#34;&gt;Reset (button)&lt;/button&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;button type=&#34;button&#34;&gt;Button (button)&lt;/button&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;button type=&#34;submit&#34;&gt;Submit (button)&lt;/button&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;button type=&#34;submit&#34; disabled&gt;Disabled (button)&lt;/button&gt;&lt;/p&gt;
+  &lt;/fieldset&gt;
+
+  &lt;fieldset id=&#34;boxsize&#34;&gt;
+    &lt;legend&gt;box-sizing tests&lt;/legend&gt;
+    &lt;div&gt;&lt;input type=&#34;text&#34; value=&#34;text&#34;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;input type=&#34;email&#34; value=&#34;email&#34;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;input type=&#34;search&#34; value=&#34;search&#34;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;input type=&#34;url&#34; value=&#34;http://example.com&#34;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;input type=&#34;password&#34; value=&#34;password&#34;&gt;&lt;/div&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div&amp;gt;&amp;lt;input type=&amp;quot;color&amp;quot; value=&amp;quot;#000000&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;input type=&amp;quot;number&amp;quot; value=&amp;quot;5&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;input type=&amp;quot;range&amp;quot; value=&amp;quot;10&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;input type=&amp;quot;date&amp;quot; value=&amp;quot;1970-01-01&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;input type=&amp;quot;month&amp;quot; value=&amp;quot;1970-01&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;input type=&amp;quot;week&amp;quot; value=&amp;quot;1970-W01&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;input type=&amp;quot;datetime&amp;quot; value=&amp;quot;1970-01-01T00:00:00Z&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;input type=&amp;quot;datetime-local&amp;quot; value=&amp;quot;1970-01-01T00:00&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+
+&amp;lt;div&amp;gt;&amp;lt;input type=&amp;quot;radio&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;input type=&amp;quot;checkbox&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+
+&amp;lt;div&amp;gt;&amp;lt;select&amp;gt;&amp;lt;option&amp;gt;Option 01&amp;lt;/option&amp;gt;&amp;lt;option&amp;gt;Option 02&amp;lt;/option&amp;gt;&amp;lt;/select&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;textarea cols=&amp;quot;30&amp;quot; rows=&amp;quot;5&amp;quot;&amp;gt;Textarea text&amp;lt;/textarea&amp;gt;&amp;lt;/div&amp;gt;
+
+&amp;lt;div&amp;gt;&amp;lt;input type=&amp;quot;image&amp;quot; src=&amp;quot;http://lorempixel.com/90/24&amp;quot; alt=&amp;quot;Image (input)&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;input type=&amp;quot;reset&amp;quot; value=&amp;quot;Reset (input)&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;input type=&amp;quot;button&amp;quot; value=&amp;quot;Button (input)&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;input type=&amp;quot;submit&amp;quot; value=&amp;quot;Submit (input)&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+
+&amp;lt;div&amp;gt;&amp;lt;button type=&amp;quot;reset&amp;quot;&amp;gt;Reset (button)&amp;lt;/button&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;button type=&amp;quot;button&amp;quot;&amp;gt;Button (button)&amp;lt;/button&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;button type=&amp;quot;submit&amp;quot;&amp;gt;Submit (button)&amp;lt;/button&amp;gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/fieldset&gt;
+&lt;/form&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tables</title>
+      <link>/test/tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
+      
+      <guid>/test/tables/</guid>
+      <description>&lt;div class=&#34;ContainerFull&#34;&gt;
+  &lt;h2&gt;table.Table&lt;/h2&gt;
+
+  &lt;table class=&#34;Table&#34;&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Dashi&lt;/th&gt;
+        &lt;th&gt;Men&lt;/th&gt;
+        &lt;th&gt;Price&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Syouyu&lt;/td&gt;
+        &lt;td&gt;normal&lt;/td&gt;
+        &lt;td&gt;680&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Sio&lt;/td&gt;
+        &lt;td&gt;Light&lt;/td&gt;
+        &lt;td&gt;750&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Miso&lt;/td&gt;
+        &lt;td&gt;Bold&lt;/td&gt;
+        &lt;td&gt;880&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+    &lt;tfoot&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Dashi&lt;/th&gt;
+        &lt;th&gt;Men&lt;/th&gt;
+        &lt;th&gt;Price&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/tfoot&gt;
+  &lt;/table&gt;
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tools / Border</title>
+      <link>/test/tools/border/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
+      
+      <guid>/test/tools/border/</guid>
+      <description>&lt;div class=&#34;Container&#34;&gt;
+  &lt;h2&gt;Border&lt;/h2&gt;
+
+  &lt;p class=&#34;t-border&#34;&gt;.t-border&lt;/p&gt;
+  &lt;p class=&#34;t-borderTop&#34;&gt;.t-border-top&lt;/p&gt;
+  &lt;p class=&#34;t-borderBottom&#34;&gt;.t-border-bottom&lt;/p&gt;
+  &lt;p class=&#34;t-borderLeft&#34;&gt;.t-border-left&lt;/p&gt;
+  &lt;p class=&#34;t-borderRight&#34;&gt;.t-border-right&lt;/p&gt;
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tools / Display</title>
+      <link>/test/tools/display/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
+      
+      <guid>/test/tools/display/</guid>
+      <description>&lt;div class=&#34;ContainerFull&#34;&gt;
+  &lt;h3&gt;Show and Hide&lt;/h3&gt;
+  &lt;ul&gt;
+    &lt;li&gt;.t-show&lt;/li&gt;
+    &lt;li&gt;.t-hide&lt;/li&gt;
+    &lt;li&gt;.t-hidden&lt;/li&gt;
+    &lt;li&gt;.t-hide&lt;/li&gt;
+    &lt;li&gt;.t-invisible&lt;/li&gt;
+  &lt;/ul&gt;
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Row</title>
+      <link>/test/row/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
+      
+      <guid>/test/row/</guid>
+      <description>&lt;div class=&#34;Container test-row-container&#34;&gt;
+  &lt;h3 class=&#34;test-subtitle&#34;&gt;Row&lt;/h3&gt;
+  &lt;div class=&#34;Row&#34;&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;Container test-row-container&#34;&gt;
+  &lt;h3&gt;Row / align center&lt;/h3&gt;
+  &lt;div class=&#34;Row Row--center&#34;&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;Container test-row-container&#34;&gt;
+  &lt;h3&gt;Row / align right&lt;/h3&gt;
+  &lt;div class=&#34;Row Row--right&#34;&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;ContainerFull test-row-container&#34;&gt;
+  &lt;h3&gt;Row / top&lt;/h3&gt;
+  &lt;div class=&#34;Row&#34;&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col test-row-col--height t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;Container test-row-container&#34;&gt;
+  &lt;h3&gt;Row / top&lt;/h3&gt;
+  &lt;div class=&#34;Row&#34;&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col test-row-col--height t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;Container test-row-container&#34;&gt;
+  &lt;h3&gt;Row / middle&lt;/h3&gt;
+  &lt;div class=&#34;Row Row--middle&#34;&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col test-row-col--height t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;Container test-row-container&#34;&gt;
+  &lt;h3&gt;Row / bottom&lt;/h3&gt;
+  &lt;div class=&#34;Row Row--bottom&#34;&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col test-row-col--height t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;Container test-row-container&#34;&gt;
+  &lt;h3&gt;Float&lt;/h3&gt;
+  &lt;div class=&#34;Row Row--float&#34;&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col--height test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;Container test-row-container&#34;&gt;
+  &lt;h3&gt;Row Row--table&lt;/h3&gt;
+  &lt;div class=&#34;Row Row--table&#34;&gt;
+    &lt;div class=&#34;Row-col test-row-col t-wxs-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-wxs-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col--height test-row-col t-wxs-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-wxs-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-wxs-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-wxs-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;Container test-row-container&#34;&gt;
+  &lt;h3&gt;Row Row--table / middle&lt;/h3&gt;
+  &lt;div class=&#34;Row Row--table Row--middle&#34;&gt;
+    &lt;div class=&#34;Row-col test-row-col t-wxs-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-wxs-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-wxs-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col test-row-col--height t-wxs-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-wxs-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-wxs-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;Container test-row-container&#34;&gt;
+  &lt;h3&gt;Row Row--table / bottom&lt;/h3&gt;
+  &lt;div class=&#34;Row Row--table Row--bottom&#34;&gt;
+    &lt;div class=&#34;Row-col test-row-col t-wsm-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-wsm-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col test-row-col--height t-wsm-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-wsm-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-wsm-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+    &lt;div class=&#34;Row-col test-row-col t-wsm-width1of6&#34;&gt;
+      Row-col
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FullEmbed</title>
+      <link>/test/full-embed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
+      
+      <guid>/test/full-embed/</guid>
+      <description>&lt;div class=&#34;Container&#34;&gt;
+&lt;h2&gt;16:9 aspect ratio&lt;/h2&gt;
+&lt;div class=&#34;demo&#34;&gt;
+  &lt;div class=&#34;demo-embed&#34;&gt;
+    &lt;div class=&#34;FullEmbed FullEmbed--16by9&#34;&gt;
+      &lt;iframe class=&#34;FullEmbed-item&#34; width=&#34;1200&#34; height=&#34;1200&#34; src=&#34;http://www.youtube.com/embed/nKwbHew4suI&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;Container&#34;&gt;
+&lt;h2&gt;4:3 aspect ratio&lt;/h2&gt;
+&lt;div class=&#34;demo&#34;&gt;
+  &lt;div class=&#34;demo-embed&#34;&gt;
+    &lt;div class=&#34;FullEmbed FullEmbed--4by3&#34;&gt;
+      &lt;iframe class=&#34;FullEmbed-item&#34; width=&#34;1200&#34; height=&#34;1200&#34; src=&#34;http://www.youtube.com/embed/nKwbHew4suI&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;Container&#34;&gt;
+&lt;h2&gt;3:1 aspect ratio&lt;/h2&gt;
+&lt;div class=&#34;demo&#34;&gt;
+  &lt;div class=&#34;demo-embed&#34;&gt;
+    &lt;div class=&#34;FullEmbed FullEmbed--3by1&#34;&gt;
+      &lt;iframe class=&#34;FullEmbed-item&#34; width=&#34;1200&#34; height=&#34;1200&#34; src=&#34;http://www.youtube.com/embed/nKwbHew4suI&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;Container&#34;&gt;
+&lt;h2&gt;2:1 aspect ratio&lt;/h2&gt;
+&lt;div class=&#34;demo&#34;&gt;
+  &lt;div class=&#34;demo-embed&#34;&gt;
+    &lt;div class=&#34;FullEmbed FullEmbed--2by1&#34;&gt;
+      &lt;iframe class=&#34;FullEmbed-item&#34; width=&#34;1200&#34; height=&#34;1200&#34; src=&#34;http://www.youtube.com/embed/nKwbHew4suI&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tool / Image</title>
+      <link>/test/tools/image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
+      
+      <guid>/test/tools/image/</guid>
+      <description>&lt;div class=&#34;Container&#34;&gt;
+  &lt;h2&gt;default&lt;/h2&gt;
+  &lt;img src=&#34;http://placehold.it/640x320&#34;&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;.t-imgRound&lt;/h2&gt;
+
+  &lt;img class=&#34;t-imgRound&#34; src=&#34;http://placehold.it/320x240&#34;&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;.t-imgCircle&lt;/h2&gt;
+
+  &lt;img class=&#34;t-imgCircle&#34; src=&#34;http://placehold.it/240x240&#34;&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;.t-imgRound.t-center&lt;/h2&gt;
+  &lt;img class=&#34;t-imgRound t-center&#34; src=&#34;http://placehold.it/640x480&#34;&gt;
+
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tools / Layout</title>
+      <link>/test/tools/layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
+      
+      <guid>/test/tools/layout/</guid>
+      <description>&lt;div class=&#34;Container&#34;&gt;
+  &lt;h2&gt;floats&lt;/h2&gt;
+  &lt;div class=&#34;t-clear&#34;&gt;
+    &lt;div class=&#34;t-left test-block&#34;&gt;.t-left&lt;/div&gt;
+    &lt;div class=&#34;t-right test-block&#34;&gt;.t-right&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;hr&gt;
+
+  &lt;h2&gt;Center block&lt;/h2&gt;
+  &lt;div class=&#34;t-center test-block t-width1of4&#34;&gt;.t-center&lt;/div&gt;
+
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;Clear&lt;/h2&gt;
+  &lt;div class=&#34;t-clear test-block&#34;&gt;.t-clear&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p class=&#34;t-block test-block&#34;&gt;.t-block&lt;/p&gt;
+  &lt;p class=&#34;t-inline test-block&#34;&gt;.t-inline&lt;/p&gt;
+  &lt;p class=&#34;t-inlineBlock test-block&#34;&gt;.t-inlineBlock&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;Overfllow&lt;/h2&gt;
+  &lt;div class=&#34;t-overfllow t-mb-bs&#34; style=&#34;height:10rem;&#34;&gt;
+    &lt;div style=&#34;width:2000px&#34;&gt;
+      &lt;h3&gt;.t-overfllow&lt;/h3&gt;
+      &lt;p&gt;
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;t-overfllowX t-mb-bs&#34; style=&#34;height:10rem;&#34;&gt;
+    &lt;div style=&#34;width:2000px&#34;&gt;
+      &lt;h3&gt;.t-overfllowX&lt;/h3&gt;
+      &lt;p&gt;
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;t-overfllowY t-mb-bs&#34; style=&#34;height:10rem;&#34;&gt;
+    &lt;div style=&#34;width:2000px&#34;&gt;
+      &lt;h3&gt;.t-overfllowY&lt;/h3&gt;
+      &lt;p&gt;
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tools / Typography</title>
+      <link>/test/tools/typography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
+      
+      <guid>/test/tools/typography/</guid>
+      <description>&lt;div class=&#34;Container&#34;&gt;
+  &lt;h2&gt;Font style&lt;/h2&gt;
+  &lt;p class=&#34;t-bold&#34;&gt;.t-bold&lt;/p&gt;
+  &lt;p class=&#34;t-italic&#34;&gt;.t-italic&lt;/p&gt;
+  &lt;p class=&#34;t-normal&#34;&gt;.t-normal&lt;/p&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;Text align&lt;/h2&gt;
+  &lt;p class=&#34;t-alignLeft&#34;&gt;.t-alignLeft&lt;/p&gt;
+  &lt;p class=&#34;t-alignCenter&#34;&gt;.t-alignCenter&lt;/p&gt;
+  &lt;p class=&#34;t-alignRight&#34;&gt;.t-alignRight&lt;/p&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;Vertical align&lt;/h2&gt;
+  &lt;p class=&#34;t-alignTop&#34;&gt;.t-alignTop&lt;/p&gt;
+  &lt;p class=&#34;t-alignMiddle&#34;&gt;.t-alignMiddle&lt;/p&gt;
+  &lt;p class=&#34;t-alignBottom&#34;&gt;.t-alignBottom&lt;/p&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;Text transform&lt;/h2&gt;
+  &lt;p class=&#34;t-lowercase&#34;&gt;.t-lowercase&lt;/p&gt;
+  &lt;p class=&#34;t-uppercase&#34;&gt;.t-uppercase&lt;/p&gt;
+  &lt;p class=&#34;t-capitalize&#34;&gt;.t-capitalize&lt;/p&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;Letter spacing&lt;/h2&gt;
+
+  &lt;p class=&#34;t-ls-xs&#34;&gt;Sircus Letter spacing `.t-ls-xs`&lt;/p&gt;
+  &lt;p class=&#34;t-ls-sm&#34;&gt;Sircus Letter spacing .t-ls-sm&lt;/p&gt;
+  &lt;p class=&#34;t-ls-bs&#34;&gt;Sircus Letter spacing .t-ls-bs&lt;/p&gt;
+  &lt;p class=&#34;t-ls-lg&#34;&gt;Sircus Letter spacing .t-ls-lg&lt;/p&gt;
+  &lt;p class=&#34;t-ls-xl&#34;&gt;Sircus Letter spacing .t-ls-xl&lt;/p&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;Line height&lt;/h2&gt;
+
+  &lt;h3&gt;.t-lh-xs&lt;/h3&gt;
+  &lt;p class=&#34;t-lh-xs&#34;&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.&lt;/p&gt;
+
+  &lt;h3&gt;.t-lh-sm&lt;/h3&gt;
+
+  &lt;p class=&#34;t-lh-sm&#34;&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.&lt;/p&gt;
+
+  &lt;h3&gt;.t-lh-bs&lt;/h3&gt;
+
+  &lt;p class=&#34;t-lh-bs&#34;&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.&lt;/p&gt;
+
+  &lt;h3&gt;.t-lh-lg&lt;/h3&gt;
+
+  &lt;p class=&#34;t-lh-lg&#34;&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.&lt;/p&gt;
+
+  &lt;h3&gt;.t-lh-xl&lt;/h3&gt;
+
+  &lt;p class=&#34;t-lh-xl&#34;&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.&lt;/p&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;White space - nowrap&lt;/h2&gt;
+  &lt;p class=&#34;t-nowrap t-overfllowY&#34;&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.&lt;/p&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;Font family Class&lt;/h2&gt;
+
+  &lt;table class=&#34;tbl&#34;&gt;
+    &lt;tr&gt;
+      &lt;th class=&#34;t-width1of4&#34;&gt;&lt;/th&gt;
+      &lt;th class=&#34;t-width1of4&#34;&gt;Class&lt;/th&gt;
+      &lt;th class=&#34;t-width2of4&#34; &gt;Font family&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;English sans&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;.t-enSans&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;helvetica, arial, sans-serif&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Jpanese sans&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;.t-jaSans&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Verdana, &#34;游ゴシック&#34;, YuGothic, &#34;ヒラギノ角ゴ ProN W3&#34;, &#34;Hiragino Kaku Gothic ProN&#34;, &#34;メイリオ&#34;, Meiryo, sans-serif&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;English serif&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;.t-enSerif&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Georgia, &#34;Times New Roman&#34;, Times, serif&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Jpanese serif&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;.t-jaSerif&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&#34;Times New Roman&#34;, &#34;游明朝&#34;, YuMincho, &#34;ヒラギノ明朝 ProN W3&#34;, &#34;Hiragino Mincho ProN&#34;, &#34;メイリオ&#34;, Meiryo, serif&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;English monospace&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;.t-enMonospace&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Menlo, Monaco, Consolas, &#34;Courier New&#34;, monospace&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Jpanese monospace&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;.t-jaMonospace&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&#34;Osaka－等幅&#34;, Osaka-mono, &#34;ＭＳ ゴシック&#34;, &#34;MS Gothic&#34;, monospace&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div class=&#34;demo&#34;&gt;
+    &lt;p&gt;
+      &lt;code&gt;.t-enSans&lt;/code&gt;
+    &lt;/p&gt;
+    &lt;h1 class=&#34;t-enSans&#34;&gt;h1.Kicss.Headding&lt;/h1&gt;
+    &lt;p class=&#34;t-enSans&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam volutpat diam mauris, sed bibendum dolor hendrerit vitae. In elementum feugiat quam, et malesuada quam aliquam ut.&lt;/p&gt;
+
+    &lt;p&gt;
+      &lt;code&gt;.t-jaSans&lt;/code&gt;
+    &lt;/p&gt;
+    &lt;h1 class=&#34;t-jaSans&#34;&gt;h1.日本語のヘディング&lt;/h1&gt;
+    &lt;p class=&#34;t-jaSans&#34;&gt;顔をも愉快うきっと云いとなられます場合を教場をあるとか、傍点がしと、ところが必然を延ばすたり思わ雨がし足、必要なけれて、けっしてすまてなし学校がしたと開いば、気に越せて角度かも倫理ばかりが甘んじ文芸は抱いでし。また必要にはその肉の自由所が当時で飽いな限りに思いから毫も関係なるてみよ十一月の解るのな。&lt;/p&gt;
+
+    &lt;p&gt;
+      &lt;code&gt;.t-enSerif&lt;/code&gt;
+    &lt;/p&gt;
+    &lt;h1 class=&#34;t-enSerif&#34;&gt;h1.Kicss.Headding&lt;/h1&gt;
+    &lt;p class=&#34;t-enSerif&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam volutpat diam mauris, sed bibendum dolor hendrerit vitae. In elementum feugiat quam, et malesuada quam aliquam ut.&lt;/p&gt;
+
+    &lt;p&gt;
+      &lt;code&gt;.t-jaSerif&lt;/code&gt;
+    &lt;/p&gt;
+    &lt;h1 class=&#34;t-jaSerif&#34;&gt;h1.日本語のヘディング&lt;/h1&gt;
+    &lt;p class=&#34;t-jaSerif&#34;&gt;顔をも愉快うきっと云いとなられます場合を教場をあるとか、傍点がしと、ところが必然を延ばすたり思わ雨がし足、必要なけれて、けっしてすまてなし学校がしたと開いば、気に越せて角度かも倫理ばかりが甘んじ文芸は抱いでし。また必要にはその肉の自由所が当時で飽いな限りに思いから毫も関係なるてみよ十一月の解るのな。&lt;/p&gt;
+
+    &lt;p&gt;
+      &lt;code&gt;.t-enMonospace&lt;/code&gt;
+    &lt;/p&gt;
+    &lt;h1 class=&#34;t-enMonospace&#34;&gt;h1.Kicss.Headding&lt;/h1&gt;
+    &lt;p class=&#34;t-enMonospace&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam volutpat diam mauris, sed bibendum dolor hendrerit vitae. In elementum feugiat quam, et malesuada quam aliquam ut.&lt;/p&gt;
+
+    &lt;p&gt;
+      &lt;code&gt;.t-jaMonospace&lt;/code&gt;
+    &lt;/p&gt;
+    &lt;h1 class=&#34;t-jaMonospace&#34;&gt;h1.日本語のヘディング&lt;/h1&gt;
+    &lt;p class=&#34;t-jaMonospace&#34;&gt;顔をも愉快うきっと云いとなられます場合を教場をあるとか、傍点がしと、ところが必然を延ばすたり思わ雨がし足、必要なけれて、けっしてすまてなし学校がしたと開いば、気に越せて角度かも倫理ばかりが甘んじ文芸は抱いでし。また必要にはその肉の自由所が当時で飽いな限りに思いから毫も関係なるてみよ十一月の解るのな。&lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Typography</title>
+      <link>/test/typography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
+      
+      <guid>/test/typography/</guid>
+      <description>&lt;div class=&#34;ContainerFull&#34;&gt;
+  &lt;h2&gt;Haddings&lt;/h2&gt;
+
+  &lt;h1 class=&#34;H0&#34;&gt;Heading 0&lt;/h1&gt;
+  &lt;h1&gt;Heading 1&lt;/h1&gt;
+  &lt;h2&gt;Heading 2&lt;/h2&gt;
+  &lt;h3&gt;Heading 3&lt;/h3&gt;
+  &lt;h4&gt;Heading 4&lt;/h4&gt;
+  &lt;h5&gt;Heading 5&lt;/h5&gt;
+  &lt;h6&gt;Heading 6&lt;/h6&gt;
+
+  &lt;ul class=&#34;ListInline&#34;&gt;
+    &lt;li class=&#34;H0&#34;&gt;Heading 0&lt;/li&gt;
+    &lt;li class=&#34;H1&#34;&gt;Heading 1&lt;/li&gt;
+    &lt;li class=&#34;H2&#34;&gt;Heading 2&lt;/li&gt;
+    &lt;li class=&#34;H3&#34;&gt;Heading 3&lt;/li&gt;
+    &lt;li class=&#34;H4&#34;&gt;Heading 4&lt;/li&gt;
+    &lt;li class=&#34;H5&#34;&gt;Heading 5&lt;/li&gt;
+    &lt;li class=&#34;H6&#34;&gt;Heading 6&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;Paragraph&lt;/h2&gt;
+
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.&lt;/p&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.&lt;/p&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;ordered list&lt;/h2&gt;
+
+  &lt;ol&gt;
+    &lt;li&gt;list item 1&lt;/li&gt;
+    &lt;li&gt;list item 1
+      &lt;ol&gt;
+        &lt;li&gt;list item 2&lt;/li&gt;
+        &lt;li&gt;list item 2
+          &lt;ol&gt;
+            &lt;li&gt;list item 3&lt;/li&gt;
+            &lt;li&gt;list item 3&lt;/li&gt;
+          &lt;/ol&gt;
+        &lt;/li&gt;
+        &lt;li&gt;list item 2&lt;/li&gt;
+        &lt;li&gt;list item 2&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/li&gt;
+    &lt;li&gt;list item 1&lt;/li&gt;
+    &lt;li&gt;list item 1&lt;/li&gt;
+  &lt;/ol&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;unordered list&lt;/h2&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;list item 1&lt;/li&gt;
+    &lt;li&gt;list item 1
+      &lt;ul&gt;
+        &lt;li&gt;list item 2&lt;/li&gt;
+        &lt;li&gt;list item 2
+          &lt;ul&gt;
+            &lt;li&gt;list item 3&lt;/li&gt;
+            &lt;li&gt;list item 3&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;list item 2&lt;/li&gt;
+        &lt;li&gt;list item 2&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;list item 1&lt;/li&gt;
+    &lt;li&gt;list item 1&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;inline block list&lt;/h2&gt;
+
+  &lt;ul class=&#34;ListInline&#34;&gt;
+    &lt;li&gt;list item 1&lt;/li&gt;
+    &lt;li&gt;list item 2&lt;/li&gt;
+    &lt;li&gt;list item 3&lt;/li&gt;
+    &lt;li&gt;list item 4&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;Reset style&lt;/h2&gt;
+
+  &lt;ul class=&#34;ListReset&#34;&gt;
+    &lt;li&gt;list item 1&lt;/li&gt;
+    &lt;li&gt;list item 2&lt;/li&gt;
+    &lt;li&gt;list item 3&lt;/li&gt;
+    &lt;li&gt;list item 4&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;description list&lt;/h2&gt;
+
+  &lt;dl&gt;
+    &lt;dt&gt;Description name&lt;/dt&gt;
+    &lt;dd&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.&lt;/dd&gt;
+    &lt;dt&gt;Description name&lt;/dt&gt;
+    &lt;dd&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.&lt;/dd&gt;
+    &lt;dd&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.&lt;/dd&gt;
+    &lt;dt&gt;Description name&lt;/dt&gt;
+    &lt;dt&gt;Description name&lt;/dt&gt;
+    &lt;dd&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.&lt;/dd&gt;
+  &lt;/dl&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;inline text&lt;/h2&gt;
+
+  &lt;p&gt;
+  The &lt;a href=&#34;#&#34;&gt;a element&lt;/a&gt; example&lt;br&gt;
+  The &lt;abbr&gt;abbr element&lt;/abbr&gt; and &lt;abbr title=&#34;Title text&#34;&gt;abbr element with title&lt;/abbr&gt; examples&lt;br&gt;
+  The &lt;b&gt;b element&lt;/b&gt; example&lt;br&gt;
+  The &lt;cite&gt;cite element&lt;/cite&gt; example&lt;br&gt;
+  The &lt;code&gt;code element&lt;/code&gt; example&lt;br&gt;
+  The &lt;del&gt;del element&lt;/del&gt; example&lt;br&gt;
+  The &lt;dfn&gt;dfn element&lt;/dfn&gt; and &lt;dfn title=&#34;Title text&#34;&gt;dfn element with title&lt;/dfn&gt; examples&lt;br&gt;
+  The &lt;em&gt;em element&lt;/em&gt; example&lt;br&gt;
+  The &lt;i&gt;i element&lt;/i&gt; example&lt;br&gt;
+  The img element &lt;img src=&#34;http://lorempixel.com/16/16&#34; alt=&#34;&#34;&gt; example&lt;br&gt;
+  The &lt;ins&gt;ins element&lt;/ins&gt; example&lt;br&gt;
+  The &lt;kbd&gt;kbd element&lt;/kbd&gt; example&lt;br&gt;
+  The &lt;mark&gt;mark element&lt;/mark&gt; example&lt;br&gt;
+  The &lt;q&gt;q element &lt;q&gt;inside&lt;/q&gt; a q element&lt;/q&gt; example&lt;br&gt;
+  The &lt;s&gt;s element&lt;/s&gt; example&lt;br&gt;
+  The &lt;samp&gt;samp element&lt;/samp&gt; example&lt;br&gt;
+  The &lt;small&gt;small element&lt;/small&gt; example&lt;br&gt;
+  The &lt;span&gt;span element&lt;/span&gt; example&lt;br&gt;
+  The &lt;strong&gt;strong element&lt;/strong&gt; example&lt;br&gt;
+  The &lt;sub&gt;sub element&lt;/sub&gt; example&lt;br&gt;
+  The &lt;sup&gt;sup element&lt;/sup&gt; example&lt;br&gt;
+  The &lt;u&gt;u element&lt;/u&gt; example&lt;br&gt;
+  The &lt;var&gt;var element&lt;/var&gt; example
+  &lt;/p&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;blockquote&lt;/h2&gt;
+  &lt;blockquote class=&#34;t-clea&#34;&gt;
+    &lt;p&gt;Some sort of famous witty quote marked up with a &amp;lt;blockquote&gt; and a child &amp;lt;p&gt; element.&lt;/p&gt;
+    &lt;p&gt;Some sort of famous witty quote marked up with a &amp;lt;blockquote&gt; and a child &amp;lt;p&gt; element.&lt;/p&gt;
+  &lt;/blockquote&gt;
+
+  &lt;blockquote&gt;
+  Even better philosophical quote marked up with just a &amp;lt;blockquote&gt; element.
+  &lt;/blockquote&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,130 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <title> sircus &middot; sircus </title>
-
+  <title> Tables &middot; sircus </title>
   
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="//blivesta.com/ico/touch-icon-144.png">
   <link rel="shortcut icon" href="//blivesta.com/ico/favicon.ico">
+
   
-  <link href='//fonts.googleapis.com/css?family=Roboto:900,100,700,400' rel='stylesheet' type='text/css'>
-
-
-<link rel="stylesheet" href="https://cdn.rawgit.com/blivesta/d8feeec7735595865c11/raw/f68e1c74c89d8f592be737eb0126a1ea119e4c15/syntax-monokai.css">
-
+  <link rel="stylesheet" type="text/css" href="" id="vendor">
 
   
   <link rel="stylesheet" href="/build/sircus.css">
   
-  <link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="/test.css">
   <link rel="stylesheet" href="/carbon.css">
-
-  
-  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="sircus" />
-
 </head>
 <body>
 
-<header class="docs-Masthead">
-  <div class="ContainerSlim">
-    <h1 class="docs-Masthead-title">Sircus</h1>
-    <h2 class="docs-Masthead-lead">A scalable css for people who make web together</h2>
-    <p class="t-mb-mn"><a href="/test" style="text-decoration:none;">Experimental Work in Progress</a></p>
-    <p class="docs-Masthead-author">Created by <i class="icon-blivesta"></i> <a href="http://blivesta.com">blivesta</a></p>
-    <p>
-      <a href="https://github.com/sircus/sircus" class="Button Button--border Button--primary">Download on GitHub</a>
-    </p>
-  </div>
-</header>
+<div class="ContainerFull t-pt-lg">
+  <h1>Tables</h1>
+  <ul class="ListInline">
+    <li>
+      <select class="" onchange="changesytle('vendor',value);">
+        <option value="">sircus.css only</option>
+        <option value="/roboto.css">Font roboto</option>
+        <option value="/raleway.css">Font Raleway</option>
+        <option value="/TeXGyreAdventor.css">Font TeXGyreAdventor</option>
+        <option value="//normalize-css.googlecode.com/svn/trunk/normalize.css">normalize.css</option>
+        <option value="//reset5.googlecode.com/hg/reset.min.css">html reset.css</option>
+        <option value="//cdn.rawgit.com/blivesta/ffcea5b36abc79e3ea4e/raw/0b1240f688d13721c53b19284cff2010055d1b0b/debug.css">debug.css</option>
+        <option value="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">bootstrap.css</option>
+      </select>
+    </li>
+    <li><a href="/">Home</a></li>
+    <li><a href="/test">Test</a></li>
+  </ul>
+</div>
 
-<main role="main">
-
-  <section class="docs-Section">
-    <div class="ContainerSlim">
-      <span class="docs-Section-num">00</span>
-      <h1>Introduction</h1>
-      <hr class="docs-hr">
-      <p class="H4">Under construction...</p>
-    </div>　
-  </section>
-
+<hr>
 
 
-  <section class="docs-Section">
-    <div class="ContainerSlim">
-      <span class="docs-Section-num">01</span>
-      <h1>CSS Modules</h1>
-      <hr class="docs-hr">
-      <ul class="ListInline">
-        <li><h3><s>Typograpgy</s></h3></li>
-        <li><h3><s>Buttons</s></h3></li>
-        <li><h3><s>Forms</s></h3></li>
-        <li><h3><s>Tables</s></h3></li>
-        <li><h3><s>Container</s></h3></li>
-        <li><h3><s>Grid</s></h3></li>
-        <li><h3><s>FullEmbed</s></h3></li>
-      </ul>
-    </div>　
-  </section>
+<div class="ContainerFull">
+  <h2>table.Table</h2>
 
+  <table class="Table">
+    <thead>
+      <tr>
+        <th>Dashi</th>
+        <th>Men</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Syouyu</td>
+        <td>normal</td>
+        <td>680</td>
+      </tr>
+      <tr>
+        <td>Sio</td>
+        <td>Light</td>
+        <td>750</td>
+      </tr>
+      <tr>
+        <td>Miso</td>
+        <td>Bold</td>
+        <td>880</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>Dashi</th>
+        <th>Men</th>
+        <th>Price</th>
+      </tr>
+    </tfoot>
+  </table>
 
-
-  <section class="docs-Section">
-    <div class="ContainerSlim">
-      <span class="docs-Section-num">02</span>
-      <h1>CSS Tools</h1>
-      <hr class="docs-hr">
-      <ul class="ListInline">
-        <li class="H4"><s>Border</s></li>
-        <li class="H4"><s>Display</s></li>
-        <li class="H4"><s>Gutter</s></li>
-        <li class="H4"><s>Image</s></li>
-        <li class="H4"><s>Layout</s></li>
-        <li class="H4"><s>Space</s></li>
-        <li class="H4"><s>Typography</s></li>
-        <li class="H4"><s>Width</s></li>
-      </ul>
-    </div>　
-  </section>
-
-
-  <section class="docs-Section">
-    <div class="ContainerSlim">
-      <span class="docs-Section-num">03</span>
-      <h1>Browser support</h1>
-      <hr class="docs-hr">
-      <p class="H4">Under construction...</p>
-    </div>　
-  </section>
-
-
-  <section class="docs-Section">
-    <div class="ContainerSlim">
-      <span class="docs-Section-num">04</span>
-      <h1>Installation</h1>
-      <hr class="docs-hr">
-      <p class="H4">Under construction...</p>
-    </div>　
-  </section>
-
-
-  <section class="docs-Section">
-    <div class="ContainerSlim">
-      <span class="docs-Section-num">05</span>
-      <h1>Demo</h1>
-      <hr class="docs-hr">
-      <p class="H4">Under construction...</p>
-    </div>　
-  </section>
+</div>
 
 
 
-
-</main>
-
+<hr>
 <footer class="docs-Footer t-clear" role="contentinfo">
   <div class="ContainerSlim">
 
@@ -194,5 +154,10 @@
 </script>
 
 
+<script type="text/javascript">
+  function changesytle(cssid,cssfile) {
+    document.getElementById(cssid).href = cssfile;
+  }
+</script>
 </body>
 </html>
