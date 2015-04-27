@@ -18,7 +18,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
       
       <guid>/test/buttons/</guid>
-      <description>&lt;section class=&#34;ContainerFull&#34;&gt;
+      <description>&lt;section class=&#34;Container&#34;&gt;
 
   &lt;h2&gt;Base button element&lt;/h2&gt;
   &lt;p&gt;
@@ -203,26 +203,26 @@
   &lt;h3&gt;.Container&lt;/h3&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;ContainerFull test-container&#34;&gt;
-  &lt;h3&gt;.ContainerFull&lt;/h3&gt;
+&lt;div class=&#34;Container Container--responsive test-container&#34;&gt;
+  &lt;h3&gt;.Container.Container--responsive&lt;/h3&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;ContainerSlim test-container&#34;&gt;
-  &lt;h3&gt;.ContainerSlim&lt;/h3&gt;
+&lt;div class=&#34;Container Container--slim test-container&#34;&gt;
+  &lt;h3&gt;.Container.Container--slim&lt;/h3&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;ContainerFull test-container-nest&#34;&gt;
-  &lt;p&gt;.ContainerFull&lt;/p&gt;
+&lt;div class=&#34;Container test-container-nest&#34;&gt;
+  &lt;p&gt;.Container&lt;/p&gt;
   &lt;div class=&#34;t-wxs-gutterReset test-container-nest&#34;&gt;
     &lt;p&gt;.t-wxs-gutterReset&lt;/p&gt;
-    &lt;div class=&#34;ContainerSlim test-container-nest&#34;&gt;
-      &lt;p&gt;.ContainerSlim&lt;/p&gt;
+    &lt;div class=&#34;Container Container--slim test-container-nest&#34;&gt;
+      &lt;p&gt;.Container.Container--slim&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;ContainerSlim&#34;&gt;
-  &lt;h3&gt;.ContainerSlim &gt; .t-wxs-gutterReset&lt;/h3&gt;
+&lt;div class=&#34;Container Container--slim&#34;&gt;
+  &lt;h3&gt;.Container.Container--slim &gt;.t-wxs-gutterReset&lt;/h3&gt;
   &lt;div class=&#34;t-wxs-gutterReset&#34;&gt;
     &lt;code&gt;.t-wxs-gutterReset&lt;/code&gt;
     &lt;img class=&#34;&#34; src=&#34;http://placehold.it/1250x800&#34; alt=&#34;&#34; /&gt;
@@ -237,7 +237,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
       
       <guid>/test/form/</guid>
-      <description>&lt;div class=&#34;ContainerFull&#34;&gt;
+      <description>&lt;div class=&#34;Container&#34;&gt;
 
 &lt;h1&gt;Forms&lt;/h1&gt;
 
@@ -537,6 +537,39 @@
     </item>
     
     <item>
+      <title>Img</title>
+      <link>/test/image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
+      
+      <guid>/test/image/</guid>
+      <description>&lt;div class=&#34;Container&#34;&gt;
+
+  &lt;h2&gt;.Img&lt;/h2&gt;
+  &lt;img class=&#34;Img&#34; src=&#34;http://placehold.it/640x320&#34;&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;.Img.Img--round&lt;/h2&gt;
+
+  &lt;img class=&#34;Img Img--round&#34; src=&#34;http://placehold.it/320x240&#34;&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;.Img.Img--circle&lt;/h2&gt;
+
+  &lt;img class=&#34;Img Img--circle&#34; src=&#34;http://placehold.it/240x240&#34;&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;.Img.Img--round.t-center&lt;/h2&gt;
+  &lt;img class=&#34;Img Img--round t-center&#34; src=&#34;http://placehold.it/640x480&#34;&gt;
+
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Row</title>
       <link>/test/row/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
@@ -587,7 +620,7 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;ContainerFull test-row-container&#34;&gt;
+&lt;div class=&#34;Container test-row-container&#34;&gt;
   &lt;h3&gt;Row / top&lt;/h3&gt;
   &lt;div class=&#34;Row&#34;&gt;
     &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
@@ -805,7 +838,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
       
       <guid>/test/tables/</guid>
-      <description>&lt;div class=&#34;ContainerFull&#34;&gt;
+      <description>&lt;div class=&#34;Container&#34;&gt;
   &lt;h2&gt;table.Table&lt;/h2&gt;
 
   &lt;table class=&#34;Table&#34;&gt;
@@ -847,38 +880,6 @@
     </item>
     
     <item>
-      <title>Tool / Image</title>
-      <link>/test/tools/image/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
-      
-      <guid>/test/tools/image/</guid>
-      <description>&lt;div class=&#34;Container&#34;&gt;
-  &lt;h2&gt;default&lt;/h2&gt;
-  &lt;img src=&#34;http://placehold.it/640x320&#34;&gt;
-
-  &lt;hr&gt;
-
-  &lt;h2&gt;.t-imgRound&lt;/h2&gt;
-
-  &lt;img class=&#34;t-imgRound&#34; src=&#34;http://placehold.it/320x240&#34;&gt;
-
-  &lt;hr&gt;
-
-  &lt;h2&gt;.t-imgCircle&lt;/h2&gt;
-
-  &lt;img class=&#34;t-imgCircle&#34; src=&#34;http://placehold.it/240x240&#34;&gt;
-
-  &lt;hr&gt;
-
-  &lt;h2&gt;.t-imgRound.t-center&lt;/h2&gt;
-  &lt;img class=&#34;t-imgRound t-center&#34; src=&#34;http://placehold.it/640x480&#34;&gt;
-
-
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Tools / Border</title>
       <link>/test/tools/border/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
@@ -903,7 +904,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
       
       <guid>/test/tools/display/</guid>
-      <description>&lt;div class=&#34;ContainerFull&#34;&gt;
+      <description>&lt;div class=&#34;Container&#34;&gt;
   &lt;h3&gt;Show and Hide&lt;/h3&gt;
   &lt;ul&gt;
     &lt;li&gt;.t-show&lt;/li&gt;
@@ -1138,7 +1139,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
       
       <guid>/test/typography/</guid>
-      <description>&lt;div class=&#34;ContainerFull&#34;&gt;
+      <description>&lt;div class=&#34;Container&#34;&gt;
   &lt;h2&gt;Haddings&lt;/h2&gt;
 
   &lt;h1 class=&#34;H0&#34;&gt;Heading 0&lt;/h1&gt;

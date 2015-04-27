@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <title> Tool / Image &middot; sircus </title>
+  <title> Img &middot; sircus </title>
   
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="//blivesta.com/ico/touch-icon-144.png">
   <link rel="shortcut icon" href="//blivesta.com/ico/favicon.ico">
@@ -20,8 +20,8 @@
 </head>
 <body>
 
-<div class="ContainerFull t-pt-lg">
-  <h1>Tool / Image</h1>
+<div class="Container t-pt-lg">
+  <h1>Img</h1>
   <ul class="ListInline">
     <li>
       <select class="" onchange="changesytle('vendor',value);">
@@ -44,25 +44,26 @@
 
 
 <div class="Container">
-  <h2>default</h2>
-  <img src="http://placehold.it/640x320">
+
+  <h2>.Img</h2>
+  <img class="Img" src="http://placehold.it/640x320">
 
   <hr>
 
-  <h2>.t-imgRound</h2>
+  <h2>.Img.Img--round</h2>
 
-  <img class="t-imgRound" src="http://placehold.it/320x240">
-
-  <hr>
-
-  <h2>.t-imgCircle</h2>
-
-  <img class="t-imgCircle" src="http://placehold.it/240x240">
+  <img class="Img Img--round" src="http://placehold.it/320x240">
 
   <hr>
 
-  <h2>.t-imgRound.t-center</h2>
-  <img class="t-imgRound t-center" src="http://placehold.it/640x480">
+  <h2>.Img.Img--circle</h2>
+
+  <img class="Img Img--circle" src="http://placehold.it/240x240">
+
+  <hr>
+
+  <h2>.Img.Img--round.t-center</h2>
+  <img class="Img Img--round t-center" src="http://placehold.it/640x480">
 
 
 </div>
@@ -71,7 +72,7 @@
 
 <hr>
 <footer class="docs-Footer t-clear" role="contentinfo">
-  <div class="ContainerSlim">
+  <div class="Container Container--slim">
 
     <h3>Sircus</h3>
 

@@ -13,39 +13,146 @@
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Container</title>
-      <link>/test/container/</link>
+      <title>Typography</title>
+      <link>/docs/typography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
       
-      <guid>/test/container/</guid>
-      <description>&lt;div class=&#34;Container test-container&#34;&gt;
-  &lt;h3&gt;.Container&lt;/h3&gt;
-&lt;/div&gt;
+      <guid>/docs/typography/</guid>
+      <description>&lt;hr class=&#34;docs-hr&#34;&gt;
 
-&lt;div class=&#34;ContainerFull test-container&#34;&gt;
-  &lt;h3&gt;.ContainerFull&lt;/h3&gt;
-&lt;/div&gt;
+&lt;h2 class=&#34;H3&#34;&gt;Heddings&lt;/h2&gt;
 
-&lt;div class=&#34;ContainerSlim test-container&#34;&gt;
-  &lt;h3&gt;.ContainerSlim&lt;/h3&gt;
-&lt;/div&gt;
+&lt;div class=&gt;
 
-&lt;div class=&#34;ContainerFull test-container-nest&#34;&gt;
-  &lt;p&gt;.ContainerFull&lt;/p&gt;
-  &lt;div class=&#34;t-wxs-gutterReset test-container-nest&#34;&gt;
-    &lt;p&gt;.t-wxs-gutterReset&lt;/p&gt;
-    &lt;div class=&#34;ContainerSlim test-container-nest&#34;&gt;
-      &lt;p&gt;.ContainerSlim&lt;/p&gt;
-    &lt;/div&gt;
+  &lt;div class=&#34;&#34;&gt;
+
+
+
+    &lt;div class=&#34;docs-example&#34;&gt;
+
+    &lt;table class=&#34;table&#34;&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;p class=&#34;H0&#34;&gt;Sircus.css heading0&lt;/p&gt;&lt;/td&gt;
+          &lt;td class=&#34;t-alignRight&#34;&gt;[ &amp;lt;p class=&#34;.H0&#34;&amp;gt; ]&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;h1&gt;Sircus.css heading1&lt;/h1&gt;&lt;/td&gt;
+          &lt;td class=&#34;t-alignRight&#34;&gt;[ &amp;lt;h1&amp;gt; | &amp;lt;p class=&#34;.H1&#34;&amp;gt; ]&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;h2 id=&#34;h2.-bootstrap-heading&#34;&gt;h2. Sircus.css heading&lt;a class=&#34;anchorjs-link&#34; href=&#34;#h2.-bootstrap-heading&#34;&gt;&lt;span class=&#34;anchorjs-icon&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;/td&gt;
+          &lt;td class=&#34;type-info&#34;&gt;Semibold 30px&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;h3 id=&#34;h3.-bootstrap-heading&#34;&gt;h3. Sircus.css heading&lt;a class=&#34;anchorjs-link&#34; href=&#34;#h3.-bootstrap-heading&#34;&gt;&lt;span class=&#34;anchorjs-icon&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;/td&gt;
+          &lt;td class=&#34;type-info&#34;&gt;Semibold 24px&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;h4 id=&#34;h4.-bootstrap-heading&#34;&gt;h4. Sircus.css heading&lt;a class=&#34;anchorjs-link&#34; href=&#34;#h4.-bootstrap-heading&#34;&gt;&lt;span class=&#34;anchorjs-icon&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h4&gt;&lt;/td&gt;
+          &lt;td class=&#34;type-info&#34;&gt;Semibold 18px&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;h5 id=&#34;h5.-bootstrap-heading&#34;&gt;h5. Sircus.css heading&lt;a class=&#34;anchorjs-link&#34; href=&#34;#h5.-bootstrap-heading&#34;&gt;&lt;span class=&#34;anchorjs-icon&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h5&gt;&lt;/td&gt;
+          &lt;td class=&#34;type-info&#34;&gt;Semibold 14px&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;h6&gt;h6. Sircus.css heading&lt;/h6&gt;&lt;/td&gt;
+          &lt;td class=&#34;type-info&#34;&gt;Semibold 12px&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
   &lt;/div&gt;
-&lt;/div&gt;
 
-&lt;div class=&#34;ContainerSlim&#34;&gt;
-  &lt;h3&gt;.ContainerSlim &gt; .t-wxs-gutterReset&lt;/h3&gt;
-  &lt;div class=&#34;t-wxs-gutterReset&#34;&gt;
-    &lt;code&gt;.t-wxs-gutterReset&lt;/code&gt;
-    &lt;img class=&#34;&#34; src=&#34;http://placehold.it/1250x800&#34; alt=&#34;&#34; /&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;h1 class=&amp;quot;H0&amp;quot;&amp;gt;Hedding0&amp;lt;/h1&amp;gt;
+&amp;lt;h1&amp;gt;Hedding1&amp;lt;/h1&amp;gt;
+&amp;lt;h2&amp;gt;Hedding2&amp;lt;/h2&amp;gt;
+&amp;lt;h3&amp;gt;Hedding3&amp;lt;/h3&amp;gt;
+&amp;lt;h4&amp;gt;Hedding4&amp;lt;/h4&amp;gt;
+&amp;lt;h5&amp;gt;Hedding5&amp;lt;/h5&amp;gt;
+&amp;lt;h6&amp;gt;Hedding6&amp;lt;/h6&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/div&gt;
+  &lt;div class=&#34;Row-col t-wsm-width1of2&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;c&#34;&gt;&amp;lt;!-- Hedding0 --&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;H0&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;Hedding0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+
+&lt;span class=&#34;c&#34;&gt;&amp;lt;!-- Hedding1 --&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Hedding1&lt;span class=&#34;nt&#34;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;H1&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;Hedding1&lt;span class=&#34;nt&#34;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+
+&lt;span class=&#34;c&#34;&gt;&amp;lt;!-- Hedding2 --&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;h2&amp;gt;&lt;/span&gt;Hedding2&lt;span class=&#34;nt&#34;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;H2&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;Hedding2&lt;span class=&#34;nt&#34;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+
+&lt;span class=&#34;c&#34;&gt;&amp;lt;!-- Hedding3 --&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;h3&amp;gt;&lt;/span&gt;Hedding3&lt;span class=&#34;nt&#34;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;H3&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;Hedding3&lt;span class=&#34;nt&#34;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+
+&lt;span class=&#34;c&#34;&gt;&amp;lt;!-- Hedding4 --&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;h4&amp;gt;&lt;/span&gt;Hedding4&lt;span class=&#34;nt&#34;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;H4&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;Hedding4&lt;span class=&#34;nt&#34;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+
+&lt;span class=&#34;c&#34;&gt;&amp;lt;!-- Hedding5 --&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;h5&amp;gt;&lt;/span&gt;Hedding5&lt;span class=&#34;nt&#34;&gt;&amp;lt;/h5&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;H5&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;Hedding5&lt;span class=&#34;nt&#34;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+
+&lt;span class=&#34;c&#34;&gt;&amp;lt;!-- Hedding6 --&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;h6&amp;gt;&lt;/span&gt;Hedding6&lt;span class=&#34;nt&#34;&gt;&amp;lt;/h6&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;H6&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;Hedding6&lt;span class=&#34;nt&#34;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+  &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;hr class=&#34;docs-hr&#34;&gt;
+
+&lt;h2 class=&#34;H3&#34;&gt;Paragraph&lt;/h2&gt;
+&lt;p&gt;
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.
+&lt;/p&gt;
+&lt;p&gt;
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;...&lt;span class=&#34;nt&#34;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+
+&lt;hr class=&#34;docs-hr&#34;&gt;
+
+
+&lt;h2 class=&#34;H3&#34;&gt;Unordered list&lt;/h2&gt;
+
+&lt;div class=&#34;Row&#34;&gt;
+
+  &lt;div class=&#34;Row-col t-wsm-width1of2&#34;&gt;
+    &lt;ul&gt;
+      &lt;li&gt;list item 1&lt;/li&gt;
+      &lt;li&gt;list item 1
+        &lt;ul&gt;
+          &lt;li&gt;list item 2&lt;/li&gt;
+          &lt;li&gt;list item 2
+            &lt;ul&gt;
+              &lt;li&gt;list item 3&lt;/li&gt;
+              &lt;li&gt;list item 3&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;list item 2&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;list item 1&lt;/li&gt;
+    &lt;/ul&gt;
   &lt;/div&gt;
+  &lt;div class=&#34;Row-col t-wsm-width1of2&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;list item 1&lt;span class=&#34;nt&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
 &lt;/div&gt;
 </description>
     </item>
@@ -70,12 +177,50 @@
     </item>
     
     <item>
+      <title>Container</title>
+      <link>/test/container/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
+      
+      <guid>/test/container/</guid>
+      <description>&lt;div class=&#34;Container test-container&#34;&gt;
+  &lt;h3&gt;.Container&lt;/h3&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;Container Container--responsive test-container&#34;&gt;
+  &lt;h3&gt;.Container.Container--responsive&lt;/h3&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;Container Container--slim test-container&#34;&gt;
+  &lt;h3&gt;.Container.Container--slim&lt;/h3&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;Container test-container-nest&#34;&gt;
+  &lt;p&gt;.Container&lt;/p&gt;
+  &lt;div class=&#34;t-wxs-gutterReset test-container-nest&#34;&gt;
+    &lt;p&gt;.t-wxs-gutterReset&lt;/p&gt;
+    &lt;div class=&#34;Container Container--slim test-container-nest&#34;&gt;
+      &lt;p&gt;.Container.Container--slim&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;Container Container--slim&#34;&gt;
+  &lt;h3&gt;.Container.Container--slim &gt;.t-wxs-gutterReset&lt;/h3&gt;
+  &lt;div class=&#34;t-wxs-gutterReset&#34;&gt;
+    &lt;code&gt;.t-wxs-gutterReset&lt;/code&gt;
+    &lt;img class=&#34;&#34; src=&#34;http://placehold.it/1250x800&#34; alt=&#34;&#34; /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Buttons</title>
       <link>/test/buttons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
       
       <guid>/test/buttons/</guid>
-      <description>&lt;section class=&#34;ContainerFull&#34;&gt;
+      <description>&lt;section class=&#34;Container&#34;&gt;
 
   &lt;h2&gt;Base button element&lt;/h2&gt;
   &lt;p&gt;
@@ -251,157 +396,12 @@
     </item>
     
     <item>
-      <title>Typography</title>
-      <link>/docs/typography/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
-      
-      <guid>/docs/typography/</guid>
-      <description>&lt;hr class=&#34;docs-hr&#34;&gt;
-
-&lt;h2 class=&#34;H3&#34;&gt;Heddings&lt;/h2&gt;
-
-&lt;div class=&gt;
-
-  &lt;div class=&#34;&#34;&gt;
-
-
-
-    &lt;div class=&#34;docs-example&#34;&gt;
-
-    &lt;table class=&#34;table&#34;&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td&gt;&lt;p class=&#34;H0&#34;&gt;Sircus.css heading0&lt;/p&gt;&lt;/td&gt;
-          &lt;td class=&#34;t-alignRight&#34;&gt;[ &amp;lt;p class=&#34;.H0&#34;&amp;gt; ]&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;&lt;h1&gt;Sircus.css heading1&lt;/h1&gt;&lt;/td&gt;
-          &lt;td class=&#34;t-alignRight&#34;&gt;[ &amp;lt;h1&amp;gt; | &amp;lt;p class=&#34;.H1&#34;&amp;gt; ]&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;&lt;h2 id=&#34;h2.-bootstrap-heading&#34;&gt;h2. Sircus.css heading&lt;a class=&#34;anchorjs-link&#34; href=&#34;#h2.-bootstrap-heading&#34;&gt;&lt;span class=&#34;anchorjs-icon&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;/td&gt;
-          &lt;td class=&#34;type-info&#34;&gt;Semibold 30px&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;&lt;h3 id=&#34;h3.-bootstrap-heading&#34;&gt;h3. Sircus.css heading&lt;a class=&#34;anchorjs-link&#34; href=&#34;#h3.-bootstrap-heading&#34;&gt;&lt;span class=&#34;anchorjs-icon&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;/td&gt;
-          &lt;td class=&#34;type-info&#34;&gt;Semibold 24px&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;&lt;h4 id=&#34;h4.-bootstrap-heading&#34;&gt;h4. Sircus.css heading&lt;a class=&#34;anchorjs-link&#34; href=&#34;#h4.-bootstrap-heading&#34;&gt;&lt;span class=&#34;anchorjs-icon&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h4&gt;&lt;/td&gt;
-          &lt;td class=&#34;type-info&#34;&gt;Semibold 18px&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;&lt;h5 id=&#34;h5.-bootstrap-heading&#34;&gt;h5. Sircus.css heading&lt;a class=&#34;anchorjs-link&#34; href=&#34;#h5.-bootstrap-heading&#34;&gt;&lt;span class=&#34;anchorjs-icon&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h5&gt;&lt;/td&gt;
-          &lt;td class=&#34;type-info&#34;&gt;Semibold 14px&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;&lt;h6&gt;h6. Sircus.css heading&lt;/h6&gt;&lt;/td&gt;
-          &lt;td class=&#34;type-info&#34;&gt;Semibold 12px&lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
-  &lt;/div&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;h1 class=&amp;quot;H0&amp;quot;&amp;gt;Hedding0&amp;lt;/h1&amp;gt;
-&amp;lt;h1&amp;gt;Hedding1&amp;lt;/h1&amp;gt;
-&amp;lt;h2&amp;gt;Hedding2&amp;lt;/h2&amp;gt;
-&amp;lt;h3&amp;gt;Hedding3&amp;lt;/h3&amp;gt;
-&amp;lt;h4&amp;gt;Hedding4&amp;lt;/h4&amp;gt;
-&amp;lt;h5&amp;gt;Hedding5&amp;lt;/h5&amp;gt;
-&amp;lt;h6&amp;gt;Hedding6&amp;lt;/h6&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/div&gt;
-  &lt;div class=&#34;Row-col t-wsm-width1of2&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;c&#34;&gt;&amp;lt;!-- Hedding0 --&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;nt&#34;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;H0&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;Hedding0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
-
-&lt;span class=&#34;c&#34;&gt;&amp;lt;!-- Hedding1 --&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;nt&#34;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Hedding1&lt;span class=&#34;nt&#34;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;nt&#34;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;H1&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;Hedding1&lt;span class=&#34;nt&#34;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-
-&lt;span class=&#34;c&#34;&gt;&amp;lt;!-- Hedding2 --&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;nt&#34;&gt;&amp;lt;h2&amp;gt;&lt;/span&gt;Hedding2&lt;span class=&#34;nt&#34;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;nt&#34;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;H2&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;Hedding2&lt;span class=&#34;nt&#34;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-
-&lt;span class=&#34;c&#34;&gt;&amp;lt;!-- Hedding3 --&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;nt&#34;&gt;&amp;lt;h3&amp;gt;&lt;/span&gt;Hedding3&lt;span class=&#34;nt&#34;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;nt&#34;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;H3&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;Hedding3&lt;span class=&#34;nt&#34;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-
-&lt;span class=&#34;c&#34;&gt;&amp;lt;!-- Hedding4 --&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;nt&#34;&gt;&amp;lt;h4&amp;gt;&lt;/span&gt;Hedding4&lt;span class=&#34;nt&#34;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;nt&#34;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;H4&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;Hedding4&lt;span class=&#34;nt&#34;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-
-&lt;span class=&#34;c&#34;&gt;&amp;lt;!-- Hedding5 --&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;nt&#34;&gt;&amp;lt;h5&amp;gt;&lt;/span&gt;Hedding5&lt;span class=&#34;nt&#34;&gt;&amp;lt;/h5&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;nt&#34;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;H5&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;Hedding5&lt;span class=&#34;nt&#34;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-
-&lt;span class=&#34;c&#34;&gt;&amp;lt;!-- Hedding6 --&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;nt&#34;&gt;&amp;lt;h6&amp;gt;&lt;/span&gt;Hedding6&lt;span class=&#34;nt&#34;&gt;&amp;lt;/h6&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;nt&#34;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;H6&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;Hedding6&lt;span class=&#34;nt&#34;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-  &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;hr class=&#34;docs-hr&#34;&gt;
-
-&lt;h2 class=&#34;H3&#34;&gt;Paragraph&lt;/h2&gt;
-&lt;p&gt;
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.
-&lt;/p&gt;
-&lt;p&gt;
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-&lt;/p&gt;
-
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;...&lt;span class=&#34;nt&#34;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-
-&lt;hr class=&#34;docs-hr&#34;&gt;
-
-
-&lt;h2 class=&#34;H3&#34;&gt;Unordered list&lt;/h2&gt;
-
-&lt;div class=&#34;Row&#34;&gt;
-
-  &lt;div class=&#34;Row-col t-wsm-width1of2&#34;&gt;
-    &lt;ul&gt;
-      &lt;li&gt;list item 1&lt;/li&gt;
-      &lt;li&gt;list item 1
-        &lt;ul&gt;
-          &lt;li&gt;list item 2&lt;/li&gt;
-          &lt;li&gt;list item 2
-            &lt;ul&gt;
-              &lt;li&gt;list item 3&lt;/li&gt;
-              &lt;li&gt;list item 3&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;list item 2&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;list item 1&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;Row-col t-wsm-width1of2&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
-  &lt;span class=&#34;nt&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;list item 1&lt;span class=&#34;nt&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;nt&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Form</title>
       <link>/test/form/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
       
       <guid>/test/form/</guid>
-      <description>&lt;div class=&#34;ContainerFull&#34;&gt;
+      <description>&lt;div class=&#34;Container&#34;&gt;
 
 &lt;h1&gt;Forms&lt;/h1&gt;
 
@@ -649,87 +649,86 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
     </item>
     
     <item>
-      <title>Tables</title>
-      <link>/test/tables/</link>
+      <title>Img</title>
+      <link>/test/image/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
       
-      <guid>/test/tables/</guid>
-      <description>&lt;div class=&#34;ContainerFull&#34;&gt;
-  &lt;h2&gt;table.Table&lt;/h2&gt;
-
-  &lt;table class=&#34;Table&#34;&gt;
-    &lt;thead&gt;
-      &lt;tr&gt;
-        &lt;th&gt;Dashi&lt;/th&gt;
-        &lt;th&gt;Men&lt;/th&gt;
-        &lt;th&gt;Price&lt;/th&gt;
-      &lt;/tr&gt;
-    &lt;/thead&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;Syouyu&lt;/td&gt;
-        &lt;td&gt;normal&lt;/td&gt;
-        &lt;td&gt;680&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;Sio&lt;/td&gt;
-        &lt;td&gt;Light&lt;/td&gt;
-        &lt;td&gt;750&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;Miso&lt;/td&gt;
-        &lt;td&gt;Bold&lt;/td&gt;
-        &lt;td&gt;880&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-    &lt;tfoot&gt;
-      &lt;tr&gt;
-        &lt;th&gt;Dashi&lt;/th&gt;
-        &lt;th&gt;Men&lt;/th&gt;
-        &lt;th&gt;Price&lt;/th&gt;
-      &lt;/tr&gt;
-    &lt;/tfoot&gt;
-  &lt;/table&gt;
-
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Tools / Border</title>
-      <link>/test/tools/border/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
-      
-      <guid>/test/tools/border/</guid>
+      <guid>/test/image/</guid>
       <description>&lt;div class=&#34;Container&#34;&gt;
-  &lt;h2&gt;Border&lt;/h2&gt;
 
-  &lt;p class=&#34;t-border&#34;&gt;.t-border&lt;/p&gt;
-  &lt;p class=&#34;t-borderTop&#34;&gt;.t-border-top&lt;/p&gt;
-  &lt;p class=&#34;t-borderBottom&#34;&gt;.t-border-bottom&lt;/p&gt;
-  &lt;p class=&#34;t-borderLeft&#34;&gt;.t-border-left&lt;/p&gt;
-  &lt;p class=&#34;t-borderRight&#34;&gt;.t-border-right&lt;/p&gt;
+  &lt;h2&gt;.Img&lt;/h2&gt;
+  &lt;img class=&#34;Img&#34; src=&#34;http://placehold.it/640x320&#34;&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;.Img.Img--round&lt;/h2&gt;
+
+  &lt;img class=&#34;Img Img--round&#34; src=&#34;http://placehold.it/320x240&#34;&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;.Img.Img--circle&lt;/h2&gt;
+
+  &lt;img class=&#34;Img Img--circle&#34; src=&#34;http://placehold.it/240x240&#34;&gt;
+
+  &lt;hr&gt;
+
+  &lt;h2&gt;.Img.Img--round.t-center&lt;/h2&gt;
+  &lt;img class=&#34;Img Img--round t-center&#34; src=&#34;http://placehold.it/640x480&#34;&gt;
+
 
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
-      <title>Tools / Display</title>
-      <link>/test/tools/display/</link>
+      <title>FullEmbed</title>
+      <link>/test/full-embed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
       
-      <guid>/test/tools/display/</guid>
-      <description>&lt;div class=&#34;ContainerFull&#34;&gt;
-  &lt;h3&gt;Show and Hide&lt;/h3&gt;
-  &lt;ul&gt;
-    &lt;li&gt;.t-show&lt;/li&gt;
-    &lt;li&gt;.t-hide&lt;/li&gt;
-    &lt;li&gt;.t-hidden&lt;/li&gt;
-    &lt;li&gt;.t-hide&lt;/li&gt;
-    &lt;li&gt;.t-invisible&lt;/li&gt;
-  &lt;/ul&gt;
+      <guid>/test/full-embed/</guid>
+      <description>&lt;div class=&#34;Container&#34;&gt;
+&lt;h2&gt;16:9 aspect ratio&lt;/h2&gt;
+&lt;div class=&#34;demo&#34;&gt;
+  &lt;div class=&#34;demo-embed&#34;&gt;
+    &lt;div class=&#34;FullEmbed FullEmbed--16by9&#34;&gt;
+      &lt;iframe class=&#34;FullEmbed-item&#34; width=&#34;1200&#34; height=&#34;1200&#34; src=&#34;http://www.youtube.com/embed/nKwbHew4suI&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
+&lt;div class=&#34;Container&#34;&gt;
+&lt;h2&gt;4:3 aspect ratio&lt;/h2&gt;
+&lt;div class=&#34;demo&#34;&gt;
+  &lt;div class=&#34;demo-embed&#34;&gt;
+    &lt;div class=&#34;FullEmbed FullEmbed--4by3&#34;&gt;
+      &lt;iframe class=&#34;FullEmbed-item&#34; width=&#34;1200&#34; height=&#34;1200&#34; src=&#34;http://www.youtube.com/embed/nKwbHew4suI&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;Container&#34;&gt;
+&lt;h2&gt;3:1 aspect ratio&lt;/h2&gt;
+&lt;div class=&#34;demo&#34;&gt;
+  &lt;div class=&#34;demo-embed&#34;&gt;
+    &lt;div class=&#34;FullEmbed FullEmbed--3by1&#34;&gt;
+      &lt;iframe class=&#34;FullEmbed-item&#34; width=&#34;1200&#34; height=&#34;1200&#34; src=&#34;http://www.youtube.com/embed/nKwbHew4suI&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;Container&#34;&gt;
+&lt;h2&gt;2:1 aspect ratio&lt;/h2&gt;
+&lt;div class=&#34;demo&#34;&gt;
+  &lt;div class=&#34;demo-embed&#34;&gt;
+    &lt;div class=&#34;FullEmbed FullEmbed--2by1&#34;&gt;
+      &lt;iframe class=&#34;FullEmbed-item&#34; width=&#34;1200&#34; height=&#34;1200&#34; src=&#34;http://www.youtube.com/embed/nKwbHew4suI&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -785,7 +784,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;ContainerFull test-row-container&#34;&gt;
+&lt;div class=&#34;Container test-row-container&#34;&gt;
   &lt;h3&gt;Row / top&lt;/h3&gt;
   &lt;div class=&#34;Row&#34;&gt;
     &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
@@ -998,146 +997,88 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
     </item>
     
     <item>
-      <title>FullEmbed</title>
-      <link>/test/full-embed/</link>
+      <title>Tables</title>
+      <link>/test/tables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
       
-      <guid>/test/full-embed/</guid>
+      <guid>/test/tables/</guid>
       <description>&lt;div class=&#34;Container&#34;&gt;
-&lt;h2&gt;16:9 aspect ratio&lt;/h2&gt;
-&lt;div class=&#34;demo&#34;&gt;
-  &lt;div class=&#34;demo-embed&#34;&gt;
-    &lt;div class=&#34;FullEmbed FullEmbed--16by9&#34;&gt;
-      &lt;iframe class=&#34;FullEmbed-item&#34; width=&#34;1200&#34; height=&#34;1200&#34; src=&#34;http://www.youtube.com/embed/nKwbHew4suI&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+  &lt;h2&gt;table.Table&lt;/h2&gt;
 
-&lt;div class=&#34;Container&#34;&gt;
-&lt;h2&gt;4:3 aspect ratio&lt;/h2&gt;
-&lt;div class=&#34;demo&#34;&gt;
-  &lt;div class=&#34;demo-embed&#34;&gt;
-    &lt;div class=&#34;FullEmbed FullEmbed--4by3&#34;&gt;
-      &lt;iframe class=&#34;FullEmbed-item&#34; width=&#34;1200&#34; height=&#34;1200&#34; src=&#34;http://www.youtube.com/embed/nKwbHew4suI&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;Container&#34;&gt;
-&lt;h2&gt;3:1 aspect ratio&lt;/h2&gt;
-&lt;div class=&#34;demo&#34;&gt;
-  &lt;div class=&#34;demo-embed&#34;&gt;
-    &lt;div class=&#34;FullEmbed FullEmbed--3by1&#34;&gt;
-      &lt;iframe class=&#34;FullEmbed-item&#34; width=&#34;1200&#34; height=&#34;1200&#34; src=&#34;http://www.youtube.com/embed/nKwbHew4suI&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;Container&#34;&gt;
-&lt;h2&gt;2:1 aspect ratio&lt;/h2&gt;
-&lt;div class=&#34;demo&#34;&gt;
-  &lt;div class=&#34;demo-embed&#34;&gt;
-    &lt;div class=&#34;FullEmbed FullEmbed--2by1&#34;&gt;
-      &lt;iframe class=&#34;FullEmbed-item&#34; width=&#34;1200&#34; height=&#34;1200&#34; src=&#34;http://www.youtube.com/embed/nKwbHew4suI&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Tool / Image</title>
-      <link>/test/tools/image/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
-      
-      <guid>/test/tools/image/</guid>
-      <description>&lt;div class=&#34;Container&#34;&gt;
-  &lt;h2&gt;default&lt;/h2&gt;
-  &lt;img src=&#34;http://placehold.it/640x320&#34;&gt;
-
-  &lt;hr&gt;
-
-  &lt;h2&gt;.t-imgRound&lt;/h2&gt;
-
-  &lt;img class=&#34;t-imgRound&#34; src=&#34;http://placehold.it/320x240&#34;&gt;
-
-  &lt;hr&gt;
-
-  &lt;h2&gt;.t-imgCircle&lt;/h2&gt;
-
-  &lt;img class=&#34;t-imgCircle&#34; src=&#34;http://placehold.it/240x240&#34;&gt;
-
-  &lt;hr&gt;
-
-  &lt;h2&gt;.t-imgRound.t-center&lt;/h2&gt;
-  &lt;img class=&#34;t-imgRound t-center&#34; src=&#34;http://placehold.it/640x480&#34;&gt;
-
+  &lt;table class=&#34;Table&#34;&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Dashi&lt;/th&gt;
+        &lt;th&gt;Men&lt;/th&gt;
+        &lt;th&gt;Price&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Syouyu&lt;/td&gt;
+        &lt;td&gt;normal&lt;/td&gt;
+        &lt;td&gt;680&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Sio&lt;/td&gt;
+        &lt;td&gt;Light&lt;/td&gt;
+        &lt;td&gt;750&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Miso&lt;/td&gt;
+        &lt;td&gt;Bold&lt;/td&gt;
+        &lt;td&gt;880&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+    &lt;tfoot&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Dashi&lt;/th&gt;
+        &lt;th&gt;Men&lt;/th&gt;
+        &lt;th&gt;Price&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/tfoot&gt;
+  &lt;/table&gt;
 
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
-      <title>Tools / Layout</title>
-      <link>/test/tools/layout/</link>
+      <title>Tools / Border</title>
+      <link>/test/tools/border/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
       
-      <guid>/test/tools/layout/</guid>
+      <guid>/test/tools/border/</guid>
       <description>&lt;div class=&#34;Container&#34;&gt;
-  &lt;h2&gt;floats&lt;/h2&gt;
-  &lt;div class=&#34;t-clear&#34;&gt;
-    &lt;div class=&#34;t-left test-block&#34;&gt;.t-left&lt;/div&gt;
-    &lt;div class=&#34;t-right test-block&#34;&gt;.t-right&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;hr&gt;
+  &lt;h2&gt;Border&lt;/h2&gt;
 
-  &lt;h2&gt;Center block&lt;/h2&gt;
-  &lt;div class=&#34;t-center test-block t-width1of4&#34;&gt;.t-center&lt;/div&gt;
+  &lt;p class=&#34;t-border&#34;&gt;.t-border&lt;/p&gt;
+  &lt;p class=&#34;t-borderTop&#34;&gt;.t-border-top&lt;/p&gt;
+  &lt;p class=&#34;t-borderBottom&#34;&gt;.t-border-bottom&lt;/p&gt;
+  &lt;p class=&#34;t-borderLeft&#34;&gt;.t-border-left&lt;/p&gt;
+  &lt;p class=&#34;t-borderRight&#34;&gt;.t-border-right&lt;/p&gt;
 
-&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tools / Display</title>
+      <link>/test/tools/display/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
+      
+      <guid>/test/tools/display/</guid>
+      <description>&lt;div class=&#34;Container&#34;&gt;
+  &lt;h3&gt;Show and Hide&lt;/h3&gt;
+  &lt;ul&gt;
+    &lt;li&gt;.t-show&lt;/li&gt;
+    &lt;li&gt;.t-hide&lt;/li&gt;
+    &lt;li&gt;.t-hidden&lt;/li&gt;
+    &lt;li&gt;.t-hide&lt;/li&gt;
+    &lt;li&gt;.t-invisible&lt;/li&gt;
+  &lt;/ul&gt;
 
-&lt;p&gt;&lt;h2&gt;Clear&lt;/h2&gt;
-  &lt;div class=&#34;t-clear test-block&#34;&gt;.t-clear&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p class=&#34;t-block test-block&#34;&gt;.t-block&lt;/p&gt;
-  &lt;p class=&#34;t-inline test-block&#34;&gt;.t-inline&lt;/p&gt;
-  &lt;p class=&#34;t-inlineBlock test-block&#34;&gt;.t-inlineBlock&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;h2&gt;Overfllow&lt;/h2&gt;
-  &lt;div class=&#34;t-overfllow t-mb-bs&#34; style=&#34;height:10rem;&#34;&gt;
-    &lt;div style=&#34;width:2000px&#34;&gt;
-      &lt;h3&gt;.t-overfllow&lt;/h3&gt;
-      &lt;p&gt;
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      &lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;t-overfllowX t-mb-bs&#34; style=&#34;height:10rem;&#34;&gt;
-    &lt;div style=&#34;width:2000px&#34;&gt;
-      &lt;h3&gt;.t-overfllowX&lt;/h3&gt;
-      &lt;p&gt;
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      &lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;t-overfllowY t-mb-bs&#34; style=&#34;height:10rem;&#34;&gt;
-    &lt;div style=&#34;width:2000px&#34;&gt;
-      &lt;h3&gt;.t-overfllowY&lt;/h3&gt;
-      &lt;p&gt;
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      &lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -1302,7 +1243,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
       <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
       
       <guid>/test/typography/</guid>
-      <description>&lt;div class=&#34;ContainerFull&#34;&gt;
+      <description>&lt;div class=&#34;Container&#34;&gt;
   &lt;h2&gt;Haddings&lt;/h2&gt;
 
   &lt;h1 class=&#34;H0&#34;&gt;Heading 0&lt;/h1&gt;
@@ -1455,6 +1396,66 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
   Even better philosophical quote marked up with just a &amp;lt;blockquote&gt; element.
   &lt;/blockquote&gt;
 &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tools / Layout</title>
+      <link>/test/tools/layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
+      
+      <guid>/test/tools/layout/</guid>
+      <description>&lt;div class=&#34;Container&#34;&gt;
+  &lt;h2&gt;floats&lt;/h2&gt;
+  &lt;div class=&#34;t-clear&#34;&gt;
+    &lt;div class=&#34;t-left test-block&#34;&gt;.t-left&lt;/div&gt;
+    &lt;div class=&#34;t-right test-block&#34;&gt;.t-right&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;hr&gt;
+
+  &lt;h2&gt;Center block&lt;/h2&gt;
+  &lt;div class=&#34;t-center test-block t-width1of4&#34;&gt;.t-center&lt;/div&gt;
+
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;Clear&lt;/h2&gt;
+  &lt;div class=&#34;t-clear test-block&#34;&gt;.t-clear&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p class=&#34;t-block test-block&#34;&gt;.t-block&lt;/p&gt;
+  &lt;p class=&#34;t-inline test-block&#34;&gt;.t-inline&lt;/p&gt;
+  &lt;p class=&#34;t-inlineBlock test-block&#34;&gt;.t-inlineBlock&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;Overfllow&lt;/h2&gt;
+  &lt;div class=&#34;t-overfllow t-mb-bs&#34; style=&#34;height:10rem;&#34;&gt;
+    &lt;div style=&#34;width:2000px&#34;&gt;
+      &lt;h3&gt;.t-overfllow&lt;/h3&gt;
+      &lt;p&gt;
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;t-overfllowX t-mb-bs&#34; style=&#34;height:10rem;&#34;&gt;
+    &lt;div style=&#34;width:2000px&#34;&gt;
+      &lt;h3&gt;.t-overfllowX&lt;/h3&gt;
+      &lt;p&gt;
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;t-overfllowY t-mb-bs&#34; style=&#34;height:10rem;&#34;&gt;
+    &lt;div style=&#34;width:2000px&#34;&gt;
+      &lt;h3&gt;.t-overfllowY&lt;/h3&gt;
+      &lt;p&gt;
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     
