@@ -8,22 +8,12 @@
   </url>
   
   <url>
-    <loc>/docs/typography/</loc>
-    <lastmod>0001-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/docs/buttons/</loc>
     <lastmod>0001-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/test/container/</loc>
-    <lastmod>0001-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/test/buttons/</loc>
+    <loc>/docs/typography/</loc>
     <lastmod>0001-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -43,6 +33,11 @@
   </url>
   
   <url>
+    <loc>/test/buttons/</loc>
+    <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/test/row/</loc>
     <lastmod>0001-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -53,12 +48,22 @@
   </url>
   
   <url>
-    <loc>/test/tools/border/</loc>
+    <loc>/test/container/</loc>
     <lastmod>0001-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/test/tools/display/</loc>
+    <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/test/tools/border/</loc>
+    <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/test/tools/layout/</loc>
     <lastmod>0001-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -69,11 +74,6 @@
   
   <url>
     <loc>/test/typography/</loc>
-    <lastmod>0001-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/test/tools/layout/</loc>
     <lastmod>0001-01-01T00:00:00+00:00</lastmod>
   </url>
   

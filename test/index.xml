@@ -199,23 +199,23 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
       
       <guid>/test/container/</guid>
-      <description>&lt;div class=&#34;Container test-container&#34;&gt;
+      <description>&lt;div class=&#34;Container test-Container&#34;&gt;
   &lt;h3&gt;.Container&lt;/h3&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;Container Container--responsive test-container&#34;&gt;
+&lt;div class=&#34;Container Container--responsive test-Container&#34;&gt;
   &lt;h3&gt;.Container.Container--responsive&lt;/h3&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;Container Container--slim test-container&#34;&gt;
+&lt;div class=&#34;Container Container--slim test-Container&#34;&gt;
   &lt;h3&gt;.Container.Container--slim&lt;/h3&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;Container test-container-nest&#34;&gt;
+&lt;div class=&#34;Container test-Container-nest&#34;&gt;
   &lt;p&gt;.Container&lt;/p&gt;
-  &lt;div class=&#34;t-wxs-gutterReset test-container-nest&#34;&gt;
-    &lt;p&gt;.t-wxs-gutterReset&lt;/p&gt;
-    &lt;div class=&#34;Container Container--slim test-container-nest&#34;&gt;
+  &lt;div class=&#34;t-wsm-gutterReset test-Container-nest&#34;&gt;
+    &lt;p&gt;.t-wsm-gutterReset&lt;/p&gt;
+    &lt;div class=&#34;Container Container--slim test-Container-nest&#34;&gt;
       &lt;p&gt;.Container.Container--slim&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -225,7 +225,7 @@
   &lt;h3&gt;.Container.Container--slim &gt;.t-wxs-gutterReset&lt;/h3&gt;
   &lt;div class=&#34;t-wxs-gutterReset&#34;&gt;
     &lt;code&gt;.t-wxs-gutterReset&lt;/code&gt;
-    &lt;img class=&#34;&#34; src=&#34;http://placehold.it/1250x800&#34; alt=&#34;&#34; /&gt;
+    &lt;img class=&#34;Img&#34; src=&#34;http://placehold.it/1250x800&#34; alt=&#34;&#34; /&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 </description>
@@ -575,256 +575,256 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
       
       <guid>/test/row/</guid>
-      <description>&lt;div class=&#34;Container test-row-container&#34;&gt;
+      <description>&lt;div class=&#34;Container&#34;&gt;
   &lt;h3 class=&#34;test-subtitle&#34;&gt;Row&lt;/h3&gt;
-  &lt;div class=&#34;Row&#34;&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+  &lt;div class=&#34;Row test-Row&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;Container test-row-container&#34;&gt;
+&lt;div class=&#34;Container&#34;&gt;
   &lt;h3&gt;Row / align center&lt;/h3&gt;
-  &lt;div class=&#34;Row Row--center&#34;&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+  &lt;div class=&#34;Row Row--center test-Row&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;Container test-row-container&#34;&gt;
+&lt;div class=&#34;Container&#34;&gt;
   &lt;h3&gt;Row / align right&lt;/h3&gt;
-  &lt;div class=&#34;Row Row--right&#34;&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+  &lt;div class=&#34;Row Row--right test-Row&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;Container test-row-container&#34;&gt;
+&lt;div class=&#34;Container&#34;&gt;
   &lt;h3&gt;Row / top&lt;/h3&gt;
-  &lt;div class=&#34;Row&#34;&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+  &lt;div class=&#34;Row test-Row&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col test-row-col--height t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col test-Row-col--height t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;Container test-row-container&#34;&gt;
+&lt;div class=&#34;Container&#34;&gt;
   &lt;h3&gt;Row / top&lt;/h3&gt;
-  &lt;div class=&#34;Row&#34;&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+  &lt;div class=&#34;Row test-Row&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col test-row-col--height t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col test-Row-col--height t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;Container test-row-container&#34;&gt;
+&lt;div class=&#34;Container&#34;&gt;
   &lt;h3&gt;Row / middle&lt;/h3&gt;
-  &lt;div class=&#34;Row Row--middle&#34;&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+  &lt;div class=&#34;Row Row--middle test-Row&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col test-row-col--height t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col test-Row-col--height t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;Container test-row-container&#34;&gt;
+&lt;div class=&#34;Container&#34;&gt;
   &lt;h3&gt;Row / bottom&lt;/h3&gt;
-  &lt;div class=&#34;Row Row--bottom&#34;&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+  &lt;div class=&#34;Row Row--bottom test-Row&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col test-row-col--height t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col test-Row-col--height t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;Container test-row-container&#34;&gt;
+&lt;div class=&#34;Container&#34;&gt;
   &lt;h3&gt;Float&lt;/h3&gt;
-  &lt;div class=&#34;Row Row--float&#34;&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+  &lt;div class=&#34;Row Row--float test-Row&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col--height test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col--height test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;Container test-row-container&#34;&gt;
+&lt;div class=&#34;Container&#34;&gt;
   &lt;h3&gt;Row Row--table&lt;/h3&gt;
-  &lt;div class=&#34;Row Row--table&#34;&gt;
-    &lt;div class=&#34;Row-col test-row-col t-wxs-width1of6&#34;&gt;
+  &lt;div class=&#34;Row Row--table test-Row&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-wxs-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-wxs-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-wxs-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col--height test-row-col t-wxs-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col--height test-Row-col t-wxs-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-wxs-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-wxs-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-wxs-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-wxs-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-wxs-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-wxs-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;Container test-row-container&#34;&gt;
+&lt;div class=&#34;Container&#34;&gt;
   &lt;h3&gt;Row Row--table / middle&lt;/h3&gt;
-  &lt;div class=&#34;Row Row--table Row--middle&#34;&gt;
-    &lt;div class=&#34;Row-col test-row-col t-wxs-width1of6&#34;&gt;
+  &lt;div class=&#34;Row Row--table Row--middle test-Row&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-wxs-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-wxs-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-wxs-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-wxs-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-wxs-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col test-row-col--height t-wxs-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col test-Row-col--height t-wxs-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-wxs-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-wxs-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-wxs-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-wxs-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;Container test-row-container&#34;&gt;
+&lt;div class=&#34;Container&#34;&gt;
   &lt;h3&gt;Row Row--table / bottom&lt;/h3&gt;
-  &lt;div class=&#34;Row Row--table Row--bottom&#34;&gt;
-    &lt;div class=&#34;Row-col test-row-col t-wsm-width1of6&#34;&gt;
+  &lt;div class=&#34;Row Row--table Row--bottom test-Row&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-wsm-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-wsm-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-wsm-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col test-row-col--height t-wsm-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col test-Row-col--height t-wsm-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-wsm-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-wsm-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-wsm-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-wsm-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
-    &lt;div class=&#34;Row-col test-row-col t-wsm-width1of6&#34;&gt;
+    &lt;div class=&#34;Row-col test-Row-col t-wsm-width1of6&#34;&gt;
       Row-col
     &lt;/div&gt;
   &lt;/div&gt;
@@ -1142,7 +1142,6 @@
       <description>&lt;div class=&#34;Container&#34;&gt;
   &lt;h2&gt;Haddings&lt;/h2&gt;
 
-  &lt;h1 class=&#34;H0&#34;&gt;Heading 0&lt;/h1&gt;
   &lt;h1&gt;Heading 1&lt;/h1&gt;
   &lt;h2&gt;Heading 2&lt;/h2&gt;
   &lt;h3&gt;Heading 3&lt;/h3&gt;
@@ -1151,7 +1150,6 @@
   &lt;h6&gt;Heading 6&lt;/h6&gt;
 
   &lt;ul class=&#34;ListInline&#34;&gt;
-    &lt;li class=&#34;H0&#34;&gt;Heading 0&lt;/li&gt;
     &lt;li class=&#34;H1&#34;&gt;Heading 1&lt;/li&gt;
     &lt;li class=&#34;H2&#34;&gt;Heading 2&lt;/li&gt;
     &lt;li class=&#34;H3&#34;&gt;Heading 3&lt;/li&gt;
