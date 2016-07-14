@@ -11,7 +11,7 @@
             </li>
           </ul> --></div></div></div></div></header><div class="Flex t-md-flex"><div class="Flex-col Flex-col--fit t-gutter"><main role="main"><p class="t-mt0 t-fontSm"><!-- <a class="docs-link" href="[object Object]" target="_blank">
           Repository
-        </a> --></p><div class="Demo"><h2 class="t-mtXs t-mbMi t-fontMd t-normal">Module for variable of the color and size,font,viewport.</h2><p class="t-mbGt t-mt0 t-fontSm"><a class="docs-link" href="[object Object]" target="_blank">sircus-variables</a> | v1.0.0</p><section class="t-clear"><h3 id="install">Install</h3><pre><code>npm <span class="hljs-operator"><span class="hljs-keyword">install</span> sircus-<span class="hljs-keyword">variables</span></span>
+        </a> --></p><div class="Demo"><h2 class="t-mtXs t-mbMi t-fontMd t-normal">Module for variable of the color and size,font,viewport.</h2><p class="t-mbGt t-mt0 t-fontSm"><a class="docs-link" href="[object Object]" target="_blank">sircus-variables</a> | v1.3.0</p><section class="t-clear"><h3 id="install">Install</h3><pre><code>npm <span class="hljs-operator"><span class="hljs-keyword">install</span> sircus-<span class="hljs-keyword">variables</span></span>
 </code></pre><h3 id="css-import">CSS import</h3><pre><code class="language-css"><span class="hljs-at_rule">@<span class="hljs-keyword">import</span> <span class="hljs-string">"sircus-variables"</span></span>;
 </code></pre><h3 id="css">CSS</h3><pre><code class="language-css">:root {
   --g-gray-90: color(#000 lightness(10%));
@@ -91,12 +91,11 @@
 
   --g-gutter: calc(var(--g-space) / 2);
 
-  --g-fontFamily-sansEn: -apple-system, &quot;Helvetica Neue&quot;, Helvetica, sans-serif;
-  --g-fontFamily-sansJa: &quot;ヒラギノ角ゴ ProN W3&quot;, &quot;Hiragino Kaku Gothic ProN&quot;, &quot;メイリオ&quot;, Meiryo, sans-serif;
-  --g-fontFamily-serifEn: &quot;Bodoni MT&quot;, Didot, &quot;Didot LT STD&quot;, &quot;Times New Roman&quot;, Baskerville, Cambria, serif;
-  --g-fontFamily-serifJa: &quot;游明朝&quot;, &quot;Yu Mincho&quot;, YuMincho, &quot;ヒラギノ明朝 ProN W3&quot;, &quot;Hiragino Mincho ProN&quot;, &quot;Times New Roman&quot;, &quot;HG明朝E&quot;, &quot;ＭＳ Ｐ明朝&quot;,&quot;ＭＳ 明朝&quot;,serif;
-  --g-fontFamily-monospaceEn: &quot;Source Code Pro&quot;, Menlo, Consolas, monospace;
-  --g-fontFamily-monospaceJa: &quot;Osaka－等幅&quot;, Osaka-mono, &quot;ＭＳ ゴシック&quot;, &quot;MS Gothic&quot;, monospace;
+  --g-fontFamily-sansEn: -apple-system, &#39;BlinkMacSystemFont&#39;, &quot;Helvetica Neue&quot;, Helvetica, &quot;Roboto&quot;, Arial, sans-serif;
+  --g-fontFamily-sansJa: &quot;Hiragino Kaku Gothic ProN&quot;, Meiryo, sans-serif;
+  --g-fontFamily-serifEn: Georgia, serif;
+  --g-fontFamily-serifJa: &quot;Hiragino Mincho ProN&quot;, &quot;Yu Mincho&quot;, serif;
+  --g-fontFamily-monospace: Roboto Mono, &quot;Source Code Pro&quot;, Menlo, Consolas, monospace;
   --g-fontFamily: var(--g-fontFamily-sansEn);
 
   --g-fontSize-gt: 3rem;
@@ -106,6 +105,8 @@
   --g-fontSize-md: 1rem;
   --g-fontSize-sm: .875rem;
   --g-fontSize-xs: .75rem;
+  --g-fontSize-tn: .6875rem;
+  --g-fontSize-mi: .625rem;
   --g-fontSize: var(--g-fontSize-md);
 
   --g-fontWeight-normal: 400;
@@ -118,6 +119,7 @@
   --g-border: var(--g-borderSize) var(--g-borderStyle) var(--g-borderColor);
 
   --g-controls-color: var(--g-gray-40);
+  --g-controls-focus-color: #b9d7e6;
   --g-controls-borderSize: .0625rem;
   --g-controls-borderRadius: var(--g-borderRadius-md);
   --g-controls-height-sm: calc(1.5rem - var(--g-controls-borderSize));
