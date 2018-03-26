@@ -1,119 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://sircus.blivesta.com/</loc>
-        <lastmod>2017-03-12T10:33:46.000Z</lastmod>
+        <loc>http://sircus.blivesta.com//</loc>
+        <lastmod>2018-03-26T10:26:26.336Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/elements/</loc>
-        <lastmod>2017-03-12T10:33:46.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.449Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/get-started/</loc>
-        <lastmod>2017-03-12T10:33:46.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.467Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/variables/</loc>
-        <lastmod>2017-03-12T10:33:46.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://sircus.blivesta.com/components/button/</loc>
-        <lastmod>2017-03-12T10:33:46.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.472Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/components/container/</loc>
-        <lastmod>2017-03-12T10:33:47.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.601Z</lastmod>
     </url>
     <url>
-        <loc>http://sircus.blivesta.com/components/flex/</loc>
-        <lastmod>2017-03-12T10:33:47.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://sircus.blivesta.com/components/form/</loc>
-        <lastmod>2017-03-12T10:33:47.000Z</lastmod>
+        <loc>http://sircus.blivesta.com/components/button/</loc>
+        <lastmod>2018-03-26T10:26:26.595Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/components/fullembed/</loc>
-        <lastmod>2017-03-12T10:33:47.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.677Z</lastmod>
+    </url>
+    <url>
+        <loc>http://sircus.blivesta.com/components/form/</loc>
+        <lastmod>2018-03-26T10:26:26.656Z</lastmod>
+    </url>
+    <url>
+        <loc>http://sircus.blivesta.com/components/flex/</loc>
+        <lastmod>2018-03-26T10:26:26.610Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/components/grid/</loc>
-        <lastmod>2017-03-12T10:33:47.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.700Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/components/list/</loc>
-        <lastmod>2017-03-12T10:33:47.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.731Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/components/table/</loc>
-        <lastmod>2017-03-12T10:33:47.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.760Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/documentation/base-elements/</loc>
-        <lastmod>2017-03-12T10:33:47.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.478Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/documentation/rules/</loc>
-        <lastmod>2017-03-12T10:33:47.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.554Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/example/card/</loc>
-        <lastmod>2017-03-12T10:33:47.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.761Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/tools/align/</loc>
-        <lastmod>2017-03-12T10:33:47.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.762Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/tools/background/</loc>
-        <lastmod>2017-03-12T10:33:47.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.762Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/tools/border/</loc>
-        <lastmod>2017-03-12T10:33:47.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.763Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/tools/boxsizing/</loc>
-        <lastmod>2017-03-12T10:33:47.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.763Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/tools/clear/</loc>
-        <lastmod>2017-03-12T10:33:47.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.764Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/tools/display/</loc>
-        <lastmod>2017-03-12T10:33:47.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.764Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/tools/gutter/</loc>
-        <lastmod>2017-03-12T10:33:47.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.765Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/tools/height/</loc>
-        <lastmod>2017-03-12T10:33:47.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.765Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/tools/layout/</loc>
-        <lastmod>2017-03-12T10:33:47.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.766Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/tools/overflow/</loc>
-        <lastmod>2017-03-12T10:33:47.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.766Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/tools/shadow/</loc>
-        <lastmod>2017-03-12T10:33:47.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.767Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/tools/space/</loc>
-        <lastmod>2017-03-12T10:33:47.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.768Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/tools/typography/</loc>
-        <lastmod>2017-03-12T10:33:47.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.769Z</lastmod>
     </url>
     <url>
         <loc>http://sircus.blivesta.com/tools/width/</loc>
-        <lastmod>2017-03-12T10:33:47.000Z</lastmod>
+        <lastmod>2018-03-26T10:26:26.768Z</lastmod>
     </url>
 </urlset>
